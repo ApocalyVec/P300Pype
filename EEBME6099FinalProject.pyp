@@ -1,20 +1,23 @@
 <?xml version='1.0' encoding='utf-8'?>
 <scheme description="" title="EEBME6099FinalProject" version="2.0">
 	<nodes>
-		<node id="0" name="LSL Input" position="(32.0, 78.0)" project_name="NeuroPype" qualified_name="widgets.network.owlslinput.OWLSLInput" title="LSL Input" uuid="353bffc0-2c17-4d37-8d0e-7d86ad87f06e" version="1.0.0" />
-		<node id="1" name="Spectrum Plot" position="(427.0, -64.0)" project_name="NeuroPype" qualified_name="widgets.visualization.owspectrumplot.OWSpectrumPlot" title="Spectrum Plot" uuid="e3924c6e-4887-451b-be0a-310ed3aca75d" version="1.0.0" />
-		<node id="2" name="Power Spectrum (Welch)" position="(266.0, -128.0)" project_name="NeuroPype" qualified_name="widgets.spectral.owwelchspectrum.OWWelchSpectrum" title="Power Spectrum (Welch)" uuid="2ca5ac93-950d-4f25-b9aa-837739a4c100" version="1.0.0" />
-		<node id="3" name="Inspect Data" position="(419.0, -171.0)" project_name="NeuroPype" qualified_name="widgets.visualization.owinspectdata.OWInspectData" title="Inspect Data (1)" uuid="8a232a4a-04aa-468a-a6ec-3dd9bc060957" version="2.1.1" />
-		<node id="4" name="Dejitter Timestamps" position="(158.0, 71.0)" project_name="NeuroPype" qualified_name="widgets.utilities.owdejittertimestamps.OWDejitterTimestamps" title="Dejitter Timestamps" uuid="8ac0c798-a8dc-44f9-8dab-9f24a9008f8f" version="1.0.0" />
-		<node id="5" name="Assign Target Values" position="(265.0, 71.0)" project_name="NeuroPype" qualified_name="widgets.machine_learning.owassigntargets.OWAssignTargets" title="Assign Target Values" uuid="6e3a2a3f-0768-4e71-b931-cb7423af402a" version="1.0.0" />
-		<node id="6" name="Segmentation" position="(382.0, 80.0)" project_name="NeuroPype" qualified_name="widgets.formatting.owsegmentation.OWSegmentation" title="Segmentation" uuid="452d9e05-484c-46c1-b6b1-45bd098a4881" version="1.0.1" />
-		<node id="7" name="FFT Band-Pass Filter" position="(480.0, 82.0)" project_name="NeuroPype" qualified_name="widgets.spectral.owspectralselection.OWSpectralSelection" title="FFT Band-Pass Filter" uuid="84db8ea1-b8cc-4949-9138-2c419f0a9994" version="1.0.0" />
-		<node id="8" name="Hierarchical Discriminant Component Analysis" position="(597.0, 87.0)" project_name="NeuroPype" qualified_name="widgets.machine_learning.owhierarchicaldiscriminantcomponentanalysis.OWHierarchicalDiscriminantComponentAnalysis" title="Hierarchical Discriminant Component Analysis" uuid="7d486bda-8ffd-4177-99d8-ea38b73939df" version="1.0.0" />
-		<node id="9" name="Discard Long Chunks" position="(714.0, 92.0)" project_name="NeuroPype" qualified_name="widgets.utilities.owdiscardlongchunks.OWDiscardLongChunks" title="Discard Long Chunks" uuid="510c2bae-864c-4599-bbaf-e2e7e692c3f5" version="1.0.0" />
-		<node id="10" name="Select Range" position="(803.0, 88.0)" project_name="NeuroPype" qualified_name="widgets.tensor_math.owselectrange.OWSelectRange" title="Select Range" uuid="827f91c8-d14b-40fa-a6fe-def020855615" version="1.0.0" />
-		<node id="11" name="Override Axis" position="(847.0, 230.0)" project_name="NeuroPype" qualified_name="widgets.tensor_math.owoverrideaxis.OWOverrideAxis" title="Override Axis" uuid="068a0e0b-48b2-4656-b0ca-fd2510dba17e" version="1.0.2" />
-		<node id="12" name="Time Series Plot" position="(860.0, 349.0)" project_name="NeuroPype" qualified_name="widgets.visualization.owtimeseriesplot.OWTimeSeriesPlot" title="Time Series Plot (1)" uuid="248d34f2-c30f-46f2-a8ba-fc4c0cdb6bfa" version="1.0.1" />
-		<node id="13" name="Inspect Data" position="(213.0, 291.0)" project_name="NeuroPype" qualified_name="widgets.visualization.owinspectdata.OWInspectData" title="Inspect Data" uuid="407fc261-e7dd-4fc7-99d5-c1c7287e1cc1" version="2.1.1" />
+		<node id="0" name="LSL Input" position="(32.0, 78.0)" project_name="NeuroPype" qualified_name="widgets.network.owlslinput.OWLSLInput" title="LSL Input" uuid="4327ad0c-09c0-4ea8-b57e-5b6c75e967cb" version="1.0.0" />
+		<node id="1" name="Spectrum Plot" position="(427.0, -64.0)" project_name="NeuroPype" qualified_name="widgets.visualization.owspectrumplot.OWSpectrumPlot" title="Spectrum Plot" uuid="c5e97b8b-2332-493c-b958-299ef6d3aaa2" version="1.0.0" />
+		<node id="2" name="Power Spectrum (Welch)" position="(266.0, -128.0)" project_name="NeuroPype" qualified_name="widgets.spectral.owwelchspectrum.OWWelchSpectrum" title="Power Spectrum (Welch)" uuid="5c720a09-d94c-4ac0-966a-9d3877ed0b6d" version="1.0.0" />
+		<node id="3" name="Inspect Data" position="(419.0, -171.0)" project_name="NeuroPype" qualified_name="widgets.visualization.owinspectdata.OWInspectData" title="Inspect Data (1)" uuid="e2d5f48e-e54b-4c8e-8f32-200419a4a4bf" version="2.1.1" />
+		<node id="4" name="Dejitter Timestamps" position="(154.0, 96.0)" project_name="NeuroPype" qualified_name="widgets.utilities.owdejittertimestamps.OWDejitterTimestamps" title="Dejitter Timestamps" uuid="3bb98828-6d15-4990-b92e-2e1e8120edaf" version="1.0.0" />
+		<node id="5" name="Assign Target Values" position="(265.0, 70.0)" project_name="NeuroPype" qualified_name="widgets.machine_learning.owassigntargets.OWAssignTargets" title="Assign Target Values" uuid="e001c984-9d8d-4c01-95e2-b56d646ef4c3" version="1.0.0" />
+		<node id="6" name="Segmentation" position="(382.0, 80.0)" project_name="NeuroPype" qualified_name="widgets.formatting.owsegmentation.OWSegmentation" title="Segmentation" uuid="38e6f108-1eef-4450-bfe8-3410b43f8afa" version="1.0.1" />
+		<node id="7" name="Hierarchical Discriminant Component Analysis" position="(597.0, 86.0)" project_name="NeuroPype" qualified_name="widgets.machine_learning.owhierarchicaldiscriminantcomponentanalysis.OWHierarchicalDiscriminantComponentAnalysis" title="Hierarchical Discriminant Component Analysis" uuid="b9bec126-d56a-4f73-852a-f1ac0eed4a15" version="1.0.0" />
+		<node id="8" name="Select Range" position="(841.0, 105.0)" project_name="NeuroPype" qualified_name="widgets.tensor_math.owselectrange.OWSelectRange" title="Select Range" uuid="54e40807-8aac-4ac2-92b4-a9fb8f67ed48" version="1.0.0" />
+		<node id="9" name="Override Axis" position="(870.0, -7.0)" project_name="NeuroPype" qualified_name="widgets.tensor_math.owoverrideaxis.OWOverrideAxis" title="Override Axis" uuid="e9630d18-b93a-4d01-a5c5-36177a562fc8" version="1.0.2" />
+		<node id="10" name="Time Series Plot" position="(961.0, 157.0)" project_name="NeuroPype" qualified_name="widgets.visualization.owtimeseriesplot.OWTimeSeriesPlot" title="Time Series Plot (1)" uuid="687cd3ae-6aa3-4ccd-aacf-0b0944eba6a4" version="1.0.1" />
+		<node id="11" name="Inspect Data" position="(213.0, 291.0)" project_name="NeuroPype" qualified_name="widgets.visualization.owinspectdata.OWInspectData" title="Inspect Data" uuid="5336c871-d638-41d5-ac9d-2623183f8dc8" version="2.1.1" />
+		<node id="12" name="Streaming Bar Plot" position="(1009.0, -37.0)" project_name="NeuroPype" qualified_name="widgets.visualization.owbarplot.OWBarPlot" title="Streaming Bar Plot" uuid="16ad6746-1e5d-4301-8117-79d3d9d1773e" version="1.0.2" />
+		<node id="13" name="Inspect Data" position="(480.0, 208.0)" project_name="NeuroPype" qualified_name="widgets.visualization.owinspectdata.OWInspectData" title="Inspect Data (2)" uuid="51706130-19f0-4117-a710-1e95efbaf7d4" version="2.1.1" />
+		<node id="14" name="LSL Output" position="(515.0, 54.0)" project_name="NeuroPype" qualified_name="widgets.network.owlsloutput.OWLSLOutput" title="LSL Output" uuid="9459bf08-ae7c-45eb-8d09-a68ec96c0f48" version="1.0.0" />
+		<node id="15" name="Accumulate Calibration Data" position="(179.0, -16.0)" project_name="NeuroPype" qualified_name="widgets.machine_learning.owaccumulatecalibrationdata.OWAccumulateCalibrationData" title="Accumulate Calibration Data" uuid="1433fe24-57d9-4df6-a4c9-6f26d797d4e7" version="1.0.0" />
+		<node id="16" name="Accumulate Calibration Data" position="(547.0, 301.0)" project_name="NeuroPype" qualified_name="widgets.machine_learning.owaccumulatecalibrationdata.OWAccumulateCalibrationData" title="Accumulate Calibration Data (1)" uuid="dd22dd2c-f53c-41fc-bd88-e9196187dec6" version="1.0.0" />
 	</nodes>
 	<links>
 		<link enabled="true" id="0" sink_channel="Data" sink_node_id="3" source_channel="Data" source_node_id="2" />
@@ -22,12 +25,10 @@
 		<link enabled="true" id="2" sink_channel="Data" sink_node_id="4" source_channel="Data" source_node_id="0" />
 		<link enabled="true" id="3" sink_channel="Data" sink_node_id="5" source_channel="Data" source_node_id="4" />
 		<link enabled="true" id="4" sink_channel="Data" sink_node_id="6" source_channel="Data" source_node_id="5" />
-		<link enabled="true" id="5" sink_channel="Data" sink_node_id="7" source_channel="Data" source_node_id="6" />
-		<link enabled="true" id="6" sink_channel="Data" sink_node_id="8" source_channel="Data" source_node_id="7" />
-		<link enabled="true" id="7" sink_channel="Data" sink_node_id="9" source_channel="Data" source_node_id="8" />
-		<link enabled="true" id="8" sink_channel="Data" sink_node_id="10" source_channel="Data" source_node_id="9" />
-		<link enabled="true" id="9" sink_channel="Data" sink_node_id="11" source_channel="Data" source_node_id="10" />
-		<link enabled="true" id="10" sink_channel="Data" sink_node_id="12" source_channel="Data" source_node_id="11" />
+		<link enabled="true" id="5" sink_channel="Data" sink_node_id="10" source_channel="Data" source_node_id="8" />
+		<link enabled="true" id="6" sink_channel="Data" sink_node_id="12" source_channel="Data" source_node_id="9" />
+		<link enabled="true" id="7" sink_channel="Data" sink_node_id="14" source_channel="Data" source_node_id="6" />
+		<link enabled="true" id="8" sink_channel="Data" sink_node_id="13" source_channel="Data" source_node_id="6" />
 	</links>
 	<annotations />
 	<thumbnail />
@@ -72,8 +73,8 @@ X2JyZWFrcG9pbnRxDIlYDgAAAHdhcm11cF9zYW1wbGVzcQ1K/////3Uu
 AABpdl9jb2x1bW5xA1gGAAAATWFya2VycQRYBwAAAG1hcHBpbmdxBX1xBihYCQAAAGluY29ycmVj
 dHEHSwFYBwAAAGNvcnJlY3RxCEsAdVgOAAAAbWFwcGluZ19mb3JtYXRxCVgGAAAAY29tcGF0cQpY
 EwAAAHNhdmVkV2lkZ2V0R2VvbWV0cnlxC2NzaXAKX3VucGlja2xlX3R5cGUKcQxYDAAAAFB5UXQ0
-LlF0Q29yZXENWAoAAABRQnl0ZUFycmF5cQ5DLgHZ0MsAAQAAAAAEWgAAAngAAAXRAAADKwAABGIA
-AAKXAAAFyQAAAyMAAAAAAABxD4VxEIdxEVJxElgOAAAAc2V0X2JyZWFrcG9pbnRxE4lYEQAAAHN1
+LlF0Q29yZXENWAoAAABRQnl0ZUFycmF5cQ5DLgHZ0MsAAQAAAAAF1QAAAoAAAAdMAAADMwAABd0A
+AAKfAAAHRAAAAysAAAAAAABxD4VxEIdxEVJxElgOAAAAc2V0X2JyZWFrcG9pbnRxE4lYEQAAAHN1
 cHBvcnRfd2lsZGNhcmRzcRSJWAsAAAB1c2VfbnVtYmVyc3EViVgHAAAAdmVyYm9zZXEWiXUu
 </properties>
 		<properties format="pickle" node_id="6">gAN9cQAoWBEAAABrZWVwX21hcmtlcl9jaHVua3EBiVgOAAAAbWF4X2dhcF9sZW5ndGhxAkc/yZmZ
@@ -84,39 +85,30 @@ AAXpAAADQAAABHoAAAJnAAAF4QAAAzgAAAAAAABxCoVxC4dxDFJxDVgOAAAAc2VsZWN0X21hcmtl
 cnNxDlgNAAAAKHVzZSBkZWZhdWx0KXEPWA4AAABzZXRfYnJlYWtwb2ludHEQiVgLAAAAdGltZV9i
 b3VuZHNxEV1xEihK9v///0sAZVgHAAAAdmVyYm9zZXETiHUu
 </properties>
-		<properties format="pickle" node_id="7">gAN9cQAoWAkAAABibG9ja3NpemVxAUtkWAsAAABmcmVxdWVuY2llc3ECXXEDKEc/uZmZmZmZmksP
-ZVgTAAAAc2F2ZWRXaWRnZXRHZW9tZXRyeXEEY3NpcApfdW5waWNrbGVfdHlwZQpxBVgMAAAAUHlR
-dDQuUXRDb3JlcQZYCgAAAFFCeXRlQXJyYXlxB0MuAdnQywABAAAAAARyAAACgQAABekAAAMHAAAE
-egAAAqAAAAXhAAAC/wAAAAAAAHEIhXEJh3EKUnELWA4AAABzZXRfYnJlYWtwb2ludHEMiXUu
-</properties>
-		<properties format="pickle" node_id="8">gAN9cQAoWA0AAABjbGFzc193ZWlnaHRzcQFYDQAAACh1c2UgZGVmYXVsdClxAlgQAAAAZG9udF9y
+		<properties format="pickle" node_id="7">gAN9cQAoWA0AAABjbGFzc193ZWlnaHRzcQFYDQAAACh1c2UgZGVmYXVsdClxAlgQAAAAZG9udF9y
 ZXNldF9tb2RlbHEDiVgPAAAAaW5pdGlhbGl6ZV9vbmNlcQSIWA0AAABwcm9iYWJpbGlzdGljcQWI
 WBMAAABzYXZlZFdpZGdldEdlb21ldHJ5cQZjc2lwCl91bnBpY2tsZV90eXBlCnEHWAwAAABQeVF0
-NC5RdENvcmVxCFgKAAAAUUJ5dGVBcnJheXEJQy4B2dDLAAEAAAAABHIAAAJWAAAGZQAAA1YAAAR6
-AAACdQAABl0AAANOAAAAAAAAcQqFcQuHcQxScQ1YDgAAAHNldF9icmVha3BvaW50cQ6JWBAAAABz
+NC5RdENvcmVxCFgKAAAAUUJ5dGVBcnJheXEJQy4B2dDLAAEAAAAABNYAAAKcAAAGyQAAA5wAAATe
+AAACuwAABsEAAAOUAAAAAAAAcQqFcQuHcQxScQ1YDgAAAHNldF9icmVha3BvaW50cQ6JWBAAAABz
 aHJpbmthZ2VfYWNyb3NzcQ9HP7HrhR64UexYEAAAAHNocmlua2FnZV93aXRoaW5xEEc/qZmZmZmZ
 mlgJAAAAdG9sZXJhbmNlcRFHPxo24uscQy1YBwAAAHZlcmJvc2VxEol1Lg==
 </properties>
-		<properties format="pickle" node_id="9">gAN9cQAoWA0AAABlbnRpcmVfcGFja2V0cQGIWBMAAABzYXZlZFdpZGdldEdlb21ldHJ5cQJjc2lw
-Cl91bnBpY2tsZV90eXBlCnEDWAwAAABQeVF0NC5RdENvcmVxBFgKAAAAUUJ5dGVBcnJheXEFQy4B
-2dDLAAEAAAAABHIAAAJ3AAAF6QAAAxIAAAR6AAAClgAABeEAAAMKAAAAAAAAcQaFcQeHcQhScQlY
-DgAAAHNldF9icmVha3BvaW50cQqJWAkAAAB0aHJlc2hvbGRxC0sPdS4=
-</properties>
-		<properties format="pickle" node_id="10">gAN9cQAoWBMAAABhcHBseV9tdWx0aXBsZV9heGVzcQGJWAQAAABheGlzcQJYBwAAAGZlYXR1cmVx
+		<properties format="pickle" node_id="8">gAN9cQAoWBMAAABhcHBseV9tdWx0aXBsZV9heGVzcQGJWAQAAABheGlzcQJYBwAAAGZlYXR1cmVx
 A1gTAAAAc2F2ZWRXaWRnZXRHZW9tZXRyeXEEY3NpcApfdW5waWNrbGVfdHlwZQpxBVgMAAAAUHlR
-dDQuUXRDb3JlcQZYCgAAAFFCeXRlQXJyYXlxB0MuAdnQywABAAAAAARyAAACXwAABekAAAMqAAAE
-egAAAn4AAAXhAAADIgAAAAAAAHEIhXEJh3EKUnELWAkAAABzZWxlY3Rpb25xDF1xDUsBYVgOAAAA
+dDQuUXRDb3JlcQZYCgAAAFFCeXRlQXJyYXlxB0MuAdnQywABAAAAAASzAAACaAAABioAAAMzAAAE
+uwAAAocAAAYiAAADKwAAAAAAAHEIhXEJh3EKUnELWAkAAABzZWxlY3Rpb25xDF1xDUsBYVgOAAAA
 c2V0X2JyZWFrcG9pbnRxDolYBAAAAHVuaXRxD1gHAAAAaW5kaWNlc3EQdS4=
 </properties>
-		<properties format="pickle" node_id="11">gAN9cQAoWA8AAABheGlzX29jY3VycmVuY2VxAUsAWBAAAABjYXJyeV9vdmVyX25hbWVzcQKIWBIA
+		<properties format="pickle" node_id="9">gAN9cQAoWA8AAABheGlzX29jY3VycmVuY2VxAUsAWBAAAABjYXJyeV9vdmVyX25hbWVzcQKIWBIA
 AABjYXJyeV9vdmVyX251bWJlcnNxA4lYDAAAAGN1c3RvbV9sYWJlbHEEWA0AAAAodXNlIGRlZmF1
-bHQpcQVYCQAAAGluaXRfZGF0YXEGXXEHWAgAAABQKGVycm9yKXEIYVgIAAAAbmV3X2F4aXNxCVgH
-AAAAZmVhdHVyZXEKWAgAAABvbGRfYXhpc3ELWAcAAABmZWF0dXJlcQxYDAAAAG9ubHlfc2lnbmFs
-c3ENiFgTAAAAc2F2ZWRXaWRnZXRHZW9tZXRyeXEOY3NpcApfdW5waWNrbGVfdHlwZQpxD1gMAAAA
-UHlRdDQuUXRDb3JlcRBYCgAAAFFCeXRlQXJyYXlxEUMuAdnQywABAAAAAARyAAACSAAABekAAANA
-AAAEegAAAmcAAAXhAAADOAAAAAAAAHEShXETh3EUUnEVWA4AAABzZXRfYnJlYWtwb2ludHEWiXUu
+bHQpcQVYCQAAAGluaXRfZGF0YXEGXXEHKFgHAAAAY29ycmVjdHEIWAkAAABpbmNvcnJlY3RxCWVY
+CAAAAG5ld19heGlzcQpYBwAAAGZlYXR1cmVxC1gIAAAAb2xkX2F4aXNxDFgHAAAAZmVhdHVyZXEN
+WAwAAABvbmx5X3NpZ25hbHNxDohYEwAAAHNhdmVkV2lkZ2V0R2VvbWV0cnlxD2NzaXAKX3VucGlj
+a2xlX3R5cGUKcRBYDAAAAFB5UXQ0LlF0Q29yZXERWAoAAABRQnl0ZUFycmF5cRJDLgHZ0MsAAQAA
+AAAEcgAAAkgAAAXpAAADQAAABHoAAAJnAAAF4QAAAzgAAAAAAABxE4VxFIdxFVJxFlgOAAAAc2V0
+X2JyZWFrcG9pbnRxF4l1Lg==
 </properties>
-		<properties format="pickle" node_id="12">gAN9cQAoWA0AAABhYnNvbHV0ZV90aW1lcQGJWA0AAABhbHdheXNfb25fdG9wcQKJWAsAAABhbnRp
+		<properties format="pickle" node_id="10">gAN9cQAoWA0AAABhYnNvbHV0ZV90aW1lcQGJWA0AAABhbHdheXNfb25fdG9wcQKJWAsAAABhbnRp
 YWxpYXNlZHEDiFgQAAAAYXV0b19saW5lX2NvbG9yc3EEiVgJAAAAYXV0b3NjYWxlcQWJWBAAAABi
 YWNrZ3JvdW5kX2NvbG9ycQZYBwAAACNGRkZGRkZxB1gQAAAAZGVjb3JhdGlvbl9jb2xvcnEIWAcA
 AAAjMDAwMDAwcQlYCwAAAGRvd25zYW1wbGVkcQqJWAwAAABpbml0aWFsX2RpbXNxC11xDChLMksy
@@ -131,7 +123,7 @@ aW50cSGJWAwAAABzaG93X3Rvb2xiYXJxIolYCwAAAHN0cmVhbV9uYW1lcSNoFVgKAAAAdGltZV9y
 YW5nZXEkSwpYBQAAAHRpdGxlcSVYIwAAAFByb2JhYmlsaXR5IG9mIHVzZXIgZXJyb3Igb3ZlciB0
 aW1lcSZYCgAAAHplcm9fY29sb3JxJ1gHAAAAIzdGN0Y3RnEoWAgAAAB6ZXJvbWVhbnEpiXUu
 </properties>
-		<properties format="pickle" node_id="13">gAN9cQAoWA0AAABhbHdheXNfb25fdG9wcQGIWAoAAABhdXRvX2Nsb3NlcQKJWAgAAABjb2xfYXhp
+		<properties format="pickle" node_id="11">gAN9cQAoWA0AAABhbHdheXNfb25fdG9wcQGIWAoAAABhdXRvX2Nsb3NlcQKJWAgAAABjb2xfYXhp
 c3EDWAQAAAB0aW1lcQRYCAAAAGRlY2ltYWxzcQVLBlgNAAAAZXZlcnlfbl90aWNrc3EGSwFYDQAA
 AGZld2VyX2J1dHRvbnNxB4hYCQAAAGZvbnRfc2l6ZXEISwpYEAAAAGluaXRpYWxfcG9zaXRpb25x
 CV1xCihLFEsyTfQBTZABZVgIAAAAcm93X2F4aXNxC1gFAAAAc3BhY2VxDFgTAAAAc2F2ZWRXaWRn
@@ -142,6 +134,47 @@ cRaIWA8AAABzaG93X2RhdGFfdGFibGVxF4hYEgAAAHNob3dfbWFya2Vyc190YWJsZXEYiFgQAAAA
 c2hvd19tYXhfY29sdW1uc3EZSxRYDwAAAHNob3dfbWF4X3ZhbHVlc3EaSzJYEgAAAHNob3dfc3Ry
 ZWFtc190YWJsZXEbiFgLAAAAc3RyZWFtX25hbWVxHFgDAAAAZWVncR1YDAAAAHdpbmRvd190aXRs
 ZXEeWBMAAABJbnNwZWN0IERhdGEgUGFja2V0cR91Lg==
+</properties>
+		<properties format="pickle" node_id="12">gAN9cQAoWA0AAABhbHdheXNfb25fdG9wcQGJWAQAAABheGlzcQJYBwAAAGZlYXR1cmVxA1gQAAAA
+YmFja2dyb3VuZF9jb2xvcnEEWAcAAAAjRkZGRkZGcQVYCQAAAGJhcl9jb2xvcnEGWAEAAABicQdY
+CQAAAGJhcl93aWR0aHEIRz/szMzMzMzNWAwAAABpbml0aWFsX2RpbXNxCV1xCihLMksyTbwCTfQB
+ZVgOAAAAaW5zdGFuY2VfZmllbGRxC1gNAAAAKHVzZSBkZWZhdWx0KXEMWA4AAABsYWJlbF9yb3Rh
+dGlvbnENWAoAAABob3Jpem9udGFscQ5YEwAAAHNhdmVkV2lkZ2V0R2VvbWV0cnlxD2NzaXAKX3Vu
+cGlja2xlX3R5cGUKcRBYDAAAAFB5UXQ0LlF0Q29yZXERWAoAAABRQnl0ZUFycmF5cRJDLgHZ0MsA
+AQAAAAAFwQAAAfAAAAc4AAADRQAABckAAAIPAAAHMAAAAz0AAAAAAABxE4VxFIdxFVJxFlgOAAAA
+c2V0X2JyZWFrcG9pbnRxF4lYDAAAAHNob3dfdG9vbGJhcnEYiVgLAAAAc3RyZWFtX25hbWVxGWgM
+WAUAAAB0aXRsZXEaWBUAAABDbGFzc2lmaWNhdGlvbiBPdXRwdXRxG1gRAAAAdXNlX2xhc3RfaW5z
+dGFuY2VxHIhYBwAAAHZlcmJvc2VxHYlYCAAAAHlfbGltaXRzcR5dcR8oSwBLAWV1Lg==
+</properties>
+		<properties format="literal" node_id="13">{'always_on_top': True, 'auto_close': False, 'col_axis': 'time', 'decimals': 6, 'every_n_ticks': 1, 'fewer_buttons': True, 'font_size': 10, 'initial_position': [20, 50, 500, 400], 'row_axis': 'space', 'savedWidgetGeometry': None, 'set_breakpoint': False, 'show_axes_table': True, 'show_data_table': True, 'show_markers_table': True, 'show_max_columns': 20, 'show_max_values': 50, 'show_streams_table': True, 'stream_name': '(use default)', 'window_title': 'Inspect Data Packet'}</properties>
+		<properties format="pickle" node_id="14">gAN9cQAoWAkAAABjaHVua19sZW5xAUsAWBUAAABpZ25vcmVfc2lnbmFsX2NoYW5nZWRxAolYCwAA
+AG1hcmtlcl9uYW1lcQNYEQAAAE91dFN0cmVhbS1tYXJrZXJzcQRYEAAAAG1hcmtlcl9zb3VyY2Vf
+aWRxBVgAAAAAcQZYDAAAAG1heF9idWZmZXJlZHEHSzxYFwAAAHJlc2V0X2lmX2xhYmVsc19jaGFu
+Z2VkcQiJWBMAAABzYXZlZFdpZGdldEdlb21ldHJ5cQljc2lwCl91bnBpY2tsZV90eXBlCnEKWAwA
+AABQeVF0NC5RdENvcmVxC1gKAAAAUUJ5dGVBcnJheXEMQy4B2dDLAAEAAAAABS4AAALQAAAGpQAA
+BE8AAAU2AAAC7wAABp0AAARHAAAAAAAAcQ2FcQ6HcQ9ScRBYDAAAAHNlbmRfbWFya2Vyc3ERiVgO
+AAAAc2V0X2JyZWFrcG9pbnRxEolYCQAAAHNvdXJjZV9pZHETaAZYBQAAAHNyYXRlcRRYDQAAACh1
+c2UgZGVmYXVsdClxFVgLAAAAc3RyZWFtX25hbWVxFlgeAAAATkVSXzIwMTVfQkNJX0NoYWxsZW5n
+ZV9TYW1wbGVzcRdYCwAAAHN0cmVhbV90eXBlcRhYBwAAAENvbnRyb2xxGVgTAAAAdXNlX2RhdGFf
+dGltZXN0YW1wc3EaiFgWAAAAdXNlX251bXB5X29wdGltaXphdGlvbnEbiXUu
+</properties>
+		<properties format="pickle" node_id="15">gAN9cQAoWAwAAABiZWdpbl9tYXJrZXJxAVgLAAAAY2FsaWItYmVnaW5xAlgRAAAAY2FsaWJyYXRp
+b25fZmlyc3RxA4hYDwAAAGNhbl9yZWNhbGlicmF0ZXEEiVgPAAAAZW1pdF9jYWxpYl9kYXRhcQWI
+WBEAAABlbWl0X3ByZWRpY3RfZGF0YXEGiFgKAAAAZW5kX21hcmtlcnEHWAkAAABjYWxpYi1lbmRx
+CFgLAAAAbWFya2VyX21vZGVxCVgHAAAAbWFya2Vyc3EKWA0AAABwcmludF9tYXJrZXJzcQuJWBMA
+AABzYXZlZFdpZGdldEdlb21ldHJ5cQxjc2lwCl91bnBpY2tsZV90eXBlCnENWAwAAABQeVF0NC5R
+dENvcmVxDlgKAAAAUUJ5dGVBcnJheXEPQy4B2dDLAAEAAAAABHIAAAJUAAAF6QAAAzQAAAR6AAAC
+cwAABeEAAAMsAAAAAAAAcRCFcRGHcRJScRNYDgAAAHNldF9icmVha3BvaW50cRSJWAcAAAB2ZXJi
+b3NlcRWJdS4=
+</properties>
+		<properties format="pickle" node_id="16">gAN9cQAoWAwAAABiZWdpbl9tYXJrZXJxAVgLAAAAY2FsaWItYmVnaW5xAlgRAAAAY2FsaWJyYXRp
+b25fZmlyc3RxA4hYDwAAAGNhbl9yZWNhbGlicmF0ZXEEiVgPAAAAZW1pdF9jYWxpYl9kYXRhcQWI
+WBEAAABlbWl0X3ByZWRpY3RfZGF0YXEGiFgKAAAAZW5kX21hcmtlcnEHWAkAAABjYWxpYi1lbmRx
+CFgLAAAAbWFya2VyX21vZGVxCVgOAAAAcmVsYXRpdmUtdGltZXNxClgNAAAAcHJpbnRfbWFya2Vy
+c3ELiVgTAAAAc2F2ZWRXaWRnZXRHZW9tZXRyeXEMY3NpcApfdW5waWNrbGVfdHlwZQpxDVgMAAAA
+UHlRdDQuUXRDb3JlcQ5YCgAAAFFCeXRlQXJyYXlxD0MuAdnQywABAAAAAARyAAACVAAABekAAAM0
+AAAEegAAAnMAAAXhAAADLAAAAAAAAHEQhXERh3ESUnETWA4AAABzZXRfYnJlYWtwb2ludHEUiVgH
+AAAAdmVyYm9zZXEViXUu
 </properties>
 	</node_properties>
 	<patch>{
@@ -155,12 +188,6 @@ ZXEeWBMAAABJbnNwZWN0IERhdGEgUGFja2V0cR91Lg==
     },
     "edges": [
         [
-            "node1",
-            "data",
-            "node5",
-            "data"
-        ],
-        [
             "node3",
             "data",
             "node4",
@@ -173,6 +200,12 @@ ZXEeWBMAAABJbnNwZWN0IERhdGEgUGFja2V0cR91Lg==
             "data"
         ],
         [
+            "node1",
+            "data",
+            "node5",
+            "data"
+        ],
+        [
             "node5",
             "data",
             "node6",
@@ -185,39 +218,27 @@ ZXEeWBMAAABJbnNwZWN0IERhdGEgUGFja2V0cR91Lg==
             "data"
         ],
         [
-            "node7",
-            "data",
-            "node8",
-            "data"
-        ],
-        [
-            "node8",
-            "data",
             "node9",
-            "data"
-        ],
-        [
-            "node9",
-            "data",
-            "node10",
-            "data"
-        ],
-        [
-            "node10",
             "data",
             "node11",
             "data"
         ],
         [
-            "node11",
-            "data",
-            "node12",
-            "data"
-        ],
-        [
-            "node12",
+            "node10",
             "data",
             "node13",
+            "data"
+        ],
+        [
+            "node7",
+            "data",
+            "node15",
+            "data"
+        ],
+        [
+            "node7",
+            "data",
+            "node14",
             "data"
         ]
     ],
@@ -339,65 +360,9 @@ ZXEeWBMAAABJbnNwZWN0IERhdGEgUGFja2V0cR91Lg==
                     "value": false
                 }
             },
-            "uuid": "353bffc0-2c17-4d37-8d0e-7d86ad87f06e"
+            "uuid": "4327ad0c-09c0-4ea8-b57e-5b6c75e967cb"
         },
         "node10": {
-            "class": "DiscardLongChunks",
-            "module": "neuropype.nodes.utilities.DiscardLongChunks",
-            "params": {
-                "entire_packet": {
-                    "customized": false,
-                    "type": "BoolPort",
-                    "value": true
-                },
-                "set_breakpoint": {
-                    "customized": false,
-                    "type": "BoolPort",
-                    "value": false
-                },
-                "threshold": {
-                    "customized": true,
-                    "type": "FloatPort",
-                    "value": 15
-                }
-            },
-            "uuid": "510c2bae-864c-4599-bbaf-e2e7e692c3f5"
-        },
-        "node11": {
-            "class": "SelectRange",
-            "module": "neuropype.nodes.tensor_math.SelectRange",
-            "params": {
-                "apply_multiple_axes": {
-                    "customized": false,
-                    "type": "BoolPort",
-                    "value": false
-                },
-                "axis": {
-                    "customized": true,
-                    "type": "EnumPort",
-                    "value": "feature"
-                },
-                "selection": {
-                    "customized": true,
-                    "type": "Port",
-                    "value": [
-                        1
-                    ]
-                },
-                "set_breakpoint": {
-                    "customized": false,
-                    "type": "BoolPort",
-                    "value": false
-                },
-                "unit": {
-                    "customized": false,
-                    "type": "EnumPort",
-                    "value": "indices"
-                }
-            },
-            "uuid": "827f91c8-d14b-40fa-a6fe-def020855615"
-        },
-        "node12": {
             "class": "OverrideAxis",
             "module": "neuropype.nodes.tensor_math.OverrideAxis",
             "params": {
@@ -425,7 +390,8 @@ ZXEeWBMAAABJbnNwZWN0IERhdGEgUGFja2V0cR91Lg==
                     "customized": true,
                     "type": "ListPort",
                     "value": [
-                        "P(error)"
+                        "correct",
+                        "incorrect"
                     ]
                 },
                 "new_axis": {
@@ -449,9 +415,9 @@ ZXEeWBMAAABJbnNwZWN0IERhdGEgUGFja2V0cR91Lg==
                     "value": false
                 }
             },
-            "uuid": "068a0e0b-48b2-4656-b0ca-fd2510dba17e"
+            "uuid": "e9630d18-b93a-4d01-a5c5-36177a562fc8"
         },
-        "node13": {
+        "node11": {
             "class": "TimeSeriesPlot",
             "module": "neuropype.nodes.visualization.TimeSeriesPlot",
             "params": {
@@ -586,9 +552,9 @@ ZXEeWBMAAABJbnNwZWN0IERhdGEgUGFja2V0cR91Lg==
                     "value": false
                 }
             },
-            "uuid": "248d34f2-c30f-46f2-a8ba-fc4c0cdb6bfa"
+            "uuid": "687cd3ae-6aa3-4ccd-aacf-0b0944eba6a4"
         },
-        "node14": {
+        "node12": {
             "class": "InspectData",
             "module": "neuropype.nodes.visualization.InspectData",
             "params": {
@@ -688,41 +654,36 @@ ZXEeWBMAAABJbnNwZWN0IERhdGEgUGFja2V0cR91Lg==
                     "value": "Inspect Data Packet"
                 }
             },
-            "uuid": "407fc261-e7dd-4fc7-99d5-c1c7287e1cc1"
+            "uuid": "5336c871-d638-41d5-ac9d-2623183f8dc8"
         },
-        "node2": {
-            "class": "SpectrumPlot",
-            "module": "neuropype.nodes.visualization.SpectrumPlot",
+        "node13": {
+            "class": "BarPlot",
+            "module": "neuropype.nodes.visualization.BarPlot",
             "params": {
                 "always_on_top": {
                     "customized": false,
                     "type": "BoolPort",
                     "value": false
                 },
-                "antialiased": {
+                "axis": {
                     "customized": false,
-                    "type": "BoolPort",
-                    "value": true
-                },
-                "autoscale": {
-                    "customized": false,
-                    "type": "BoolPort",
-                    "value": true
+                    "type": "EnumPort",
+                    "value": "feature"
                 },
                 "background_color": {
                     "customized": false,
                     "type": "StringPort",
                     "value": "#FFFFFF"
                 },
-                "decoration_color": {
+                "bar_color": {
                     "customized": false,
                     "type": "StringPort",
-                    "value": "#000000"
+                    "value": "b"
                 },
-                "downsampled": {
-                    "customized": false,
-                    "type": "BoolPort",
-                    "value": false
+                "bar_width": {
+                    "customized": true,
+                    "type": "FloatPort",
+                    "value": 0.9
                 },
                 "initial_dims": {
                     "customized": false,
@@ -734,35 +695,25 @@ ZXEeWBMAAABJbnNwZWN0IERhdGEgUGFja2V0cR91Lg==
                         500
                     ]
                 },
-                "line_color": {
+                "instance_field": {
                     "customized": false,
                     "type": "StringPort",
-                    "value": "#000000"
+                    "value": null
                 },
-                "line_width": {
-                    "customized": false,
-                    "type": "FloatPort",
-                    "value": 0.75
-                },
-                "one_over_f_correction": {
-                    "customized": false,
-                    "type": "BoolPort",
-                    "value": false
-                },
-                "scale": {
-                    "customized": false,
-                    "type": "FloatPort",
-                    "value": 1.0
+                "label_rotation": {
+                    "customized": true,
+                    "type": "EnumPort",
+                    "value": "horizontal"
                 },
                 "set_breakpoint": {
                     "customized": false,
                     "type": "BoolPort",
                     "value": false
                 },
-                "stacked": {
+                "show_toolbar": {
                     "customized": false,
                     "type": "BoolPort",
-                    "value": true
+                    "value": false
                 },
                 "stream_name": {
                     "customized": false,
@@ -770,81 +721,32 @@ ZXEeWBMAAABJbnNwZWN0IERhdGEgUGFja2V0cR91Lg==
                     "value": null
                 },
                 "title": {
-                    "customized": false,
+                    "customized": true,
                     "type": "StringPort",
-                    "value": "Spectrum view"
+                    "value": "Classification Output"
                 },
-                "zero_color": {
-                    "customized": false,
-                    "type": "StringPort",
-                    "value": "#7F7F7F7F"
-                }
-            },
-            "uuid": "e3924c6e-4887-451b-be0a-310ed3aca75d"
-        },
-        "node3": {
-            "class": "WelchSpectrum",
-            "module": "neuropype.nodes.spectral.WelchSpectrum",
-            "params": {
-                "average_over_time_window": {
-                    "customized": false,
-                    "type": "BoolPort",
-                    "value": false
-                },
-                "axis": {
-                    "customized": false,
-                    "type": "EnumPort",
-                    "value": "time"
-                },
-                "detrend": {
-                    "customized": false,
-                    "type": "EnumPort",
-                    "value": "constant"
-                },
-                "fft_size": {
-                    "customized": false,
-                    "type": "IntPort",
-                    "value": null
-                },
-                "onesided": {
+                "use_last_instance": {
                     "customized": false,
                     "type": "BoolPort",
                     "value": true
                 },
-                "overlap_samples": {
-                    "customized": false,
-                    "type": "FloatPort",
-                    "value": null
-                },
-                "scaling": {
-                    "customized": false,
-                    "type": "EnumPort",
-                    "value": "density"
-                },
-                "segment_samples": {
-                    "customized": false,
-                    "type": "FloatPort",
-                    "value": null
-                },
-                "set_breakpoint": {
+                "verbose": {
                     "customized": false,
                     "type": "BoolPort",
                     "value": false
                 },
-                "unit": {
-                    "customized": false,
-                    "type": "EnumPort",
-                    "value": "samples"
-                },
-                "window": {
-                    "customized": false,
-                    "type": "EnumPort",
-                    "value": "hann"
+                "y_limits": {
+                    "customized": true,
+                    "type": "ListPort",
+                    "value": [
+                        0,
+                        1
+                    ]
                 }
             },
-            "uuid": "2ca5ac93-950d-4f25-b9aa-837739a4c100"
+            "uuid": "16ad6746-1e5d-4301-8117-79d3d9d1773e"
         },
-        "node4": {
+        "node14": {
             "class": "InspectData",
             "module": "neuropype.nodes.visualization.InspectData",
             "params": {
@@ -944,7 +846,454 @@ ZXEeWBMAAABJbnNwZWN0IERhdGEgUGFja2V0cR91Lg==
                     "value": "Inspect Data Packet"
                 }
             },
-            "uuid": "8a232a4a-04aa-468a-a6ec-3dd9bc060957"
+            "uuid": "51706130-19f0-4117-a710-1e95efbaf7d4"
+        },
+        "node15": {
+            "class": "LSLOutput",
+            "module": "neuropype.nodes.network.LSLOutput",
+            "params": {
+                "chunk_len": {
+                    "customized": false,
+                    "type": "IntPort",
+                    "value": 0
+                },
+                "ignore_signal_changed": {
+                    "customized": false,
+                    "type": "BoolPort",
+                    "value": false
+                },
+                "marker_name": {
+                    "customized": false,
+                    "type": "StringPort",
+                    "value": "OutStream-markers"
+                },
+                "marker_source_id": {
+                    "customized": false,
+                    "type": "StringPort",
+                    "value": ""
+                },
+                "max_buffered": {
+                    "customized": false,
+                    "type": "IntPort",
+                    "value": 60
+                },
+                "reset_if_labels_changed": {
+                    "customized": false,
+                    "type": "BoolPort",
+                    "value": false
+                },
+                "send_markers": {
+                    "customized": false,
+                    "type": "BoolPort",
+                    "value": false
+                },
+                "set_breakpoint": {
+                    "customized": false,
+                    "type": "BoolPort",
+                    "value": false
+                },
+                "source_id": {
+                    "customized": false,
+                    "type": "StringPort",
+                    "value": ""
+                },
+                "srate": {
+                    "customized": false,
+                    "type": "FloatPort",
+                    "value": null
+                },
+                "stream_name": {
+                    "customized": true,
+                    "type": "StringPort",
+                    "value": "NER_2015_BCI_Challenge_Samples"
+                },
+                "stream_type": {
+                    "customized": false,
+                    "type": "StringPort",
+                    "value": "Control"
+                },
+                "use_data_timestamps": {
+                    "customized": false,
+                    "type": "BoolPort",
+                    "value": true
+                },
+                "use_numpy_optimization": {
+                    "customized": false,
+                    "type": "BoolPort",
+                    "value": false
+                }
+            },
+            "uuid": "9459bf08-ae7c-45eb-8d09-a68ec96c0f48"
+        },
+        "node16": {
+            "class": "AccumulateCalibrationData",
+            "module": "neuropype.nodes.machine_learning.AccumulateCalibrationData",
+            "params": {
+                "begin_marker": {
+                    "customized": false,
+                    "type": "Port",
+                    "value": "calib-begin"
+                },
+                "calibration_first": {
+                    "customized": false,
+                    "type": "BoolPort",
+                    "value": true
+                },
+                "can_recalibrate": {
+                    "customized": false,
+                    "type": "BoolPort",
+                    "value": false
+                },
+                "emit_calib_data": {
+                    "customized": false,
+                    "type": "BoolPort",
+                    "value": true
+                },
+                "emit_predict_data": {
+                    "customized": false,
+                    "type": "BoolPort",
+                    "value": true
+                },
+                "end_marker": {
+                    "customized": false,
+                    "type": "Port",
+                    "value": "calib-end"
+                },
+                "marker_mode": {
+                    "customized": false,
+                    "type": "EnumPort",
+                    "value": "markers"
+                },
+                "print_markers": {
+                    "customized": false,
+                    "type": "BoolPort",
+                    "value": false
+                },
+                "set_breakpoint": {
+                    "customized": false,
+                    "type": "BoolPort",
+                    "value": false
+                },
+                "verbose": {
+                    "customized": false,
+                    "type": "BoolPort",
+                    "value": false
+                }
+            },
+            "uuid": "1433fe24-57d9-4df6-a4c9-6f26d797d4e7"
+        },
+        "node17": {
+            "class": "AccumulateCalibrationData",
+            "module": "neuropype.nodes.machine_learning.AccumulateCalibrationData",
+            "params": {
+                "begin_marker": {
+                    "customized": false,
+                    "type": "Port",
+                    "value": "calib-begin"
+                },
+                "calibration_first": {
+                    "customized": false,
+                    "type": "BoolPort",
+                    "value": true
+                },
+                "can_recalibrate": {
+                    "customized": false,
+                    "type": "BoolPort",
+                    "value": false
+                },
+                "emit_calib_data": {
+                    "customized": false,
+                    "type": "BoolPort",
+                    "value": true
+                },
+                "emit_predict_data": {
+                    "customized": false,
+                    "type": "BoolPort",
+                    "value": true
+                },
+                "end_marker": {
+                    "customized": false,
+                    "type": "Port",
+                    "value": "calib-end"
+                },
+                "marker_mode": {
+                    "customized": true,
+                    "type": "EnumPort",
+                    "value": "relative-times"
+                },
+                "print_markers": {
+                    "customized": false,
+                    "type": "BoolPort",
+                    "value": false
+                },
+                "set_breakpoint": {
+                    "customized": false,
+                    "type": "BoolPort",
+                    "value": false
+                },
+                "verbose": {
+                    "customized": false,
+                    "type": "BoolPort",
+                    "value": false
+                }
+            },
+            "uuid": "dd22dd2c-f53c-41fc-bd88-e9196187dec6"
+        },
+        "node2": {
+            "class": "SpectrumPlot",
+            "module": "neuropype.nodes.visualization.SpectrumPlot",
+            "params": {
+                "always_on_top": {
+                    "customized": false,
+                    "type": "BoolPort",
+                    "value": false
+                },
+                "antialiased": {
+                    "customized": false,
+                    "type": "BoolPort",
+                    "value": true
+                },
+                "autoscale": {
+                    "customized": false,
+                    "type": "BoolPort",
+                    "value": true
+                },
+                "background_color": {
+                    "customized": false,
+                    "type": "StringPort",
+                    "value": "#FFFFFF"
+                },
+                "decoration_color": {
+                    "customized": false,
+                    "type": "StringPort",
+                    "value": "#000000"
+                },
+                "downsampled": {
+                    "customized": false,
+                    "type": "BoolPort",
+                    "value": false
+                },
+                "initial_dims": {
+                    "customized": false,
+                    "type": "ListPort",
+                    "value": [
+                        50,
+                        50,
+                        700,
+                        500
+                    ]
+                },
+                "line_color": {
+                    "customized": false,
+                    "type": "StringPort",
+                    "value": "#000000"
+                },
+                "line_width": {
+                    "customized": false,
+                    "type": "FloatPort",
+                    "value": 0.75
+                },
+                "one_over_f_correction": {
+                    "customized": false,
+                    "type": "BoolPort",
+                    "value": false
+                },
+                "scale": {
+                    "customized": false,
+                    "type": "FloatPort",
+                    "value": 1.0
+                },
+                "set_breakpoint": {
+                    "customized": false,
+                    "type": "BoolPort",
+                    "value": false
+                },
+                "stacked": {
+                    "customized": false,
+                    "type": "BoolPort",
+                    "value": true
+                },
+                "stream_name": {
+                    "customized": false,
+                    "type": "StringPort",
+                    "value": null
+                },
+                "title": {
+                    "customized": false,
+                    "type": "StringPort",
+                    "value": "Spectrum view"
+                },
+                "zero_color": {
+                    "customized": false,
+                    "type": "StringPort",
+                    "value": "#7F7F7F7F"
+                }
+            },
+            "uuid": "c5e97b8b-2332-493c-b958-299ef6d3aaa2"
+        },
+        "node3": {
+            "class": "WelchSpectrum",
+            "module": "neuropype.nodes.spectral.WelchSpectrum",
+            "params": {
+                "average_over_time_window": {
+                    "customized": false,
+                    "type": "BoolPort",
+                    "value": false
+                },
+                "axis": {
+                    "customized": false,
+                    "type": "EnumPort",
+                    "value": "time"
+                },
+                "detrend": {
+                    "customized": false,
+                    "type": "EnumPort",
+                    "value": "constant"
+                },
+                "fft_size": {
+                    "customized": false,
+                    "type": "IntPort",
+                    "value": null
+                },
+                "onesided": {
+                    "customized": false,
+                    "type": "BoolPort",
+                    "value": true
+                },
+                "overlap_samples": {
+                    "customized": false,
+                    "type": "FloatPort",
+                    "value": null
+                },
+                "scaling": {
+                    "customized": false,
+                    "type": "EnumPort",
+                    "value": "density"
+                },
+                "segment_samples": {
+                    "customized": false,
+                    "type": "FloatPort",
+                    "value": null
+                },
+                "set_breakpoint": {
+                    "customized": false,
+                    "type": "BoolPort",
+                    "value": false
+                },
+                "unit": {
+                    "customized": false,
+                    "type": "EnumPort",
+                    "value": "samples"
+                },
+                "window": {
+                    "customized": false,
+                    "type": "EnumPort",
+                    "value": "hann"
+                }
+            },
+            "uuid": "5c720a09-d94c-4ac0-966a-9d3877ed0b6d"
+        },
+        "node4": {
+            "class": "InspectData",
+            "module": "neuropype.nodes.visualization.InspectData",
+            "params": {
+                "always_on_top": {
+                    "customized": false,
+                    "type": "BoolPort",
+                    "value": true
+                },
+                "auto_close": {
+                    "customized": false,
+                    "type": "BoolPort",
+                    "value": false
+                },
+                "col_axis": {
+                    "customized": false,
+                    "type": "EnumPort",
+                    "value": "time"
+                },
+                "decimals": {
+                    "customized": false,
+                    "type": "IntPort",
+                    "value": 6
+                },
+                "every_n_ticks": {
+                    "customized": false,
+                    "type": "IntPort",
+                    "value": 1
+                },
+                "fewer_buttons": {
+                    "customized": false,
+                    "type": "BoolPort",
+                    "value": true
+                },
+                "font_size": {
+                    "customized": false,
+                    "type": "IntPort",
+                    "value": 10
+                },
+                "initial_position": {
+                    "customized": false,
+                    "type": "ListPort",
+                    "value": [
+                        20,
+                        50,
+                        500,
+                        400
+                    ]
+                },
+                "row_axis": {
+                    "customized": false,
+                    "type": "EnumPort",
+                    "value": "space"
+                },
+                "set_breakpoint": {
+                    "customized": false,
+                    "type": "BoolPort",
+                    "value": false
+                },
+                "show_axes_table": {
+                    "customized": false,
+                    "type": "BoolPort",
+                    "value": true
+                },
+                "show_data_table": {
+                    "customized": false,
+                    "type": "BoolPort",
+                    "value": true
+                },
+                "show_markers_table": {
+                    "customized": false,
+                    "type": "BoolPort",
+                    "value": true
+                },
+                "show_max_columns": {
+                    "customized": false,
+                    "type": "IntPort",
+                    "value": 20
+                },
+                "show_max_values": {
+                    "customized": false,
+                    "type": "IntPort",
+                    "value": 50
+                },
+                "show_streams_table": {
+                    "customized": false,
+                    "type": "BoolPort",
+                    "value": true
+                },
+                "stream_name": {
+                    "customized": false,
+                    "type": "StringPort",
+                    "value": null
+                },
+                "window_title": {
+                    "customized": false,
+                    "type": "StringPort",
+                    "value": "Inspect Data Packet"
+                }
+            },
+            "uuid": "e2d5f48e-e54b-4c8e-8f32-200419a4a4bf"
         },
         "node5": {
             "class": "DejitterTimestamps",
@@ -976,7 +1325,7 @@ ZXEeWBMAAABJbnNwZWN0IERhdGEgUGFja2V0cR91Lg==
                     "value": -1
                 }
             },
-            "uuid": "8ac0c798-a8dc-44f9-8dab-9f24a9008f8f"
+            "uuid": "3bb98828-6d15-4990-b92e-2e1e8120edaf"
         },
         "node6": {
             "class": "AssignTargets",
@@ -1031,7 +1380,7 @@ ZXEeWBMAAABJbnNwZWN0IERhdGEgUGFja2V0cR91Lg==
                     "value": false
                 }
             },
-            "uuid": "6e3a2a3f-0768-4e71-b931-cb7423af402a"
+            "uuid": "e001c984-9d8d-4c01-95e2-b56d646ef4c3"
         },
         "node7": {
             "class": "Segmentation",
@@ -1081,34 +1430,9 @@ ZXEeWBMAAABJbnNwZWN0IERhdGEgUGFja2V0cR91Lg==
                     "value": true
                 }
             },
-            "uuid": "452d9e05-484c-46c1-b6b1-45bd098a4881"
+            "uuid": "38e6f108-1eef-4450-bfe8-3410b43f8afa"
         },
         "node8": {
-            "class": "SpectralSelection",
-            "module": "neuropype.nodes.spectral.SpectralSelection",
-            "params": {
-                "blocksize": {
-                    "customized": false,
-                    "type": "IntPort",
-                    "value": 100
-                },
-                "frequencies": {
-                    "customized": true,
-                    "type": "ListPort",
-                    "value": [
-                        0.1,
-                        15
-                    ]
-                },
-                "set_breakpoint": {
-                    "customized": false,
-                    "type": "BoolPort",
-                    "value": false
-                }
-            },
-            "uuid": "84db8ea1-b8cc-4949-9138-2c419f0a9994"
-        },
-        "node9": {
             "class": "HierarchicalDiscriminantComponentAnalysis",
             "module": "neuropype.nodes.machine_learning.HierarchicalDiscriminantComponentAnalysis",
             "params": {
@@ -1158,7 +1482,41 @@ ZXEeWBMAAABJbnNwZWN0IERhdGEgUGFja2V0cR91Lg==
                     "value": false
                 }
             },
-            "uuid": "7d486bda-8ffd-4177-99d8-ea38b73939df"
+            "uuid": "b9bec126-d56a-4f73-852a-f1ac0eed4a15"
+        },
+        "node9": {
+            "class": "SelectRange",
+            "module": "neuropype.nodes.tensor_math.SelectRange",
+            "params": {
+                "apply_multiple_axes": {
+                    "customized": false,
+                    "type": "BoolPort",
+                    "value": false
+                },
+                "axis": {
+                    "customized": true,
+                    "type": "EnumPort",
+                    "value": "feature"
+                },
+                "selection": {
+                    "customized": true,
+                    "type": "Port",
+                    "value": [
+                        1
+                    ]
+                },
+                "set_breakpoint": {
+                    "customized": false,
+                    "type": "BoolPort",
+                    "value": false
+                },
+                "unit": {
+                    "customized": false,
+                    "type": "EnumPort",
+                    "value": "indices"
+                }
+            },
+            "uuid": "54e40807-8aac-4ac2-92b4-a9fb8f67ed48"
         }
     },
     "version": 1.1

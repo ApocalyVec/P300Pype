@@ -55,3 +55,5 @@ label_all = np.concatenate([np.zeros(len(array_correct)), np.ones(len(array_inco
 
 np.save( 'data', array_all)
 np.save( 'label', label_all)
+
+
