@@ -1,5 +1,6 @@
 """Example program to demonstrate how to send a multi-channel time series to
 LSL."""
+import os
 import sys
 import getopt
 
@@ -9,18 +10,29 @@ from random import random as rand
 from pylsl import StreamInfo, StreamOutlet, local_clock
 
 import pandas as pd
+import numpy as np
 
 def main():
 
     # read in the files
-    df = pd.read_csv('E:/inria-bci-challenge/train/Data_S02_Sess01.csv')  # change this to your path
-    array_eeg = df.iloc[:, 1:57].values
+
+    root = 'E:/inria-bci-challenge/train/'
+    session_num = 10
+    files = [os.path.join(root, fn) for fn in os.listdir(root)]
     srate = 200
     name = 'NER_2015_BCI_Challenge'
     type = 'EEG'
     n_channels = 56
 
     info = StreamInfo(name, type, n_channels, srate, 'float32', 'someid')
+    array_eeg = np.empty((0, n_channels))
+
+    for i, fn in enumerate(files):
+        print('Loading {0} of {1} session files'.format(i+1, min(session_num, len(files))))
+        if i >= session_num:
+            break
+        df = pd.read_csv(fn)  # change this to your path
+        array_eeg = np.concatenate([array_eeg, df.iloc[:, 1:57].values], axis=0)
 
     # next make an outlet
     outlet = StreamOutlet(info)
