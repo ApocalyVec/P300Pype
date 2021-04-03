@@ -1,3 +1,5 @@
 numpy
 pylsl
 pandas
+mne
+matplotlib
