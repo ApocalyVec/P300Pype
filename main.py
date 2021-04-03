@@ -1,5 +1,3 @@
-"""Example program to demonstrate how to send a multi-channel time series to
-LSL."""
 import os
 import sys
 import getopt
@@ -7,7 +5,7 @@ import getopt
 import time
 from random import random as rand
 
-from pylsl import StreamInfo, StreamOutlet, local_clock
+from pylsl import StreamInfo, StreamOutlet, local_clock, IRREGULAR_RATE
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
@@ -17,6 +15,7 @@ def main():
     # read in the files
 
     root = 'E:/inria-bci-challenge/train/'
+    train_label_location = 'E:/inria-bci-challenge/TrainLabels.csv'
     files = [os.path.join(root, fn) for fn in os.listdir(root)]
     srate = 200
 
@@ -29,19 +28,28 @@ def main():
         print('Loading {0} of {1} session files'.format(i+1, len(files)))
         df = pd.read_csv(fn)  # change this to your path
         array_eeg = np.concatenate([array_eeg, df.iloc[:, 1:57].values], axis=0)
-        array_em = np.concatenate([array_em, df.iloc[:, 58].values], axis=0)
-    # next make an outlet
+        array_em = np.concatenate([array_em, df.iloc[:, -1].values], axis=0)
 
+    array_prediction = np.expand_dims(pd.read_csv(train_label_location)['Prediction'].values, axis=-1)
+    array_prediction[array_prediction == 1] = 2  # 2 is correct
+    array_prediction[array_prediction == 0] = 1  # 1 is correct
+    array_em[np.argwhere(array_em)] = array_prediction
+
+    # next make an outlet
     # EEG stream
     info_EEG = StreamInfo('NER_2015_BCI_Challenge_EEG', 'EEG', n_channels, srate, 'float32', 'EEGID')
     outlet_EEG = StreamOutlet(info_EEG)
     # EM stream
-    info_EM = StreamInfo('NER_2015_BCI_Challenge_EM', 'EM', 1, srate, 'string', 'EMID')
+    info_EM = StreamInfo('NER_2015_BCI_Challenge_EM', 'EM', 1, IRREGULAR_RATE, 'string', 'EMID')
     outlet_EM = StreamOutlet(info_EM)
+
+    array_eeg = array_eeg[7500:, :]
+    array_em = array_em[7500:]
 
     print("now sending data...")
     start_time = local_clock()
     sent_samples = 0
+
     while True:
         elapsed_time = local_clock() - start_time
         required_samples = int(srate * elapsed_time) - sent_samples
@@ -49,14 +57,29 @@ def main():
             # make a new random n_channels sample; this is converted into a
             # pylsl.vectorf (the data type that is expected by push_sample)
             sample_eeg = array_eeg[0, :]
-            array_eeg = array_eeg[1:, :]
 
-            sample_em = np.asarray([array_em[0]], '<U32')
-            array_em = array_em[1:]
+            if array_em[0] == 0.:
+                pass
+            elif array_em[0] == 1.:
+                outlet_EM.push_sample(['S X'])
+                outlet_EM.push_sample(['incorrect'])
 
+                print('EM sent is incorrect')
+            elif array_em[0] == 2.:
+                outlet_EM.push_sample(['S X'])
+                outlet_EM.push_sample(['correct'])
+
+                print('EM sent is correct')
+            else:
+                raise Exception('Unrecognized event, this should never happen ')
             # now send it
             outlet_EEG.push_sample(sample_eeg)
-            outlet_EM.push_sample(sample_em)
+
+            # forward the pointer
+            array_em = array_em[1:]
+            array_eeg = array_eeg[1:, :]
+
+
         sent_samples += required_samples
         # now send it and wait for a bit before trying again.
         time.sleep(0.005)
