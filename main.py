@@ -17,25 +17,27 @@ def main():
     # read in the files
 
     root = 'E:/inria-bci-challenge/train/'
-    session_num = 10
     files = [os.path.join(root, fn) for fn in os.listdir(root)]
     srate = 200
-    name = 'NER_2015_BCI_Challenge'
-    type = 'EEG'
+
     n_channels = 56
 
-    info = StreamInfo(name, type, n_channels, srate, 'float32', 'someid')
     array_eeg = np.empty((0, n_channels))
+    array_em = np.empty((0,))
 
     for i, fn in enumerate(files):
-        print('Loading {0} of {1} session files'.format(i+1, min(session_num, len(files))))
-        if i >= session_num:
-            break
+        print('Loading {0} of {1} session files'.format(i+1, len(files)))
         df = pd.read_csv(fn)  # change this to your path
         array_eeg = np.concatenate([array_eeg, df.iloc[:, 1:57].values], axis=0)
-
+        array_em = np.concatenate([array_em, df.iloc[:, 58].values], axis=0)
     # next make an outlet
-    outlet = StreamOutlet(info)
+
+    # EEG stream
+    info_EEG = StreamInfo('NER_2015_BCI_Challenge_EEG', 'EEG', n_channels, srate, 'float32', 'EEGID')
+    outlet_EEG = StreamOutlet(info_EEG)
+    # EM stream
+    info_EM = StreamInfo('NER_2015_BCI_Challenge_EM', 'EM', 1, srate, 'string', 'EMID')
+    outlet_EM = StreamOutlet(info_EM)
 
     print("now sending data...")
     start_time = local_clock()
@@ -46,10 +48,15 @@ def main():
         for sample_ix in range(required_samples):
             # make a new random n_channels sample; this is converted into a
             # pylsl.vectorf (the data type that is expected by push_sample)
-            mysample = array_eeg[0, :]
+            sample_eeg = array_eeg[0, :]
             array_eeg = array_eeg[1:, :]
+
+            sample_em = np.asarray([array_em[0]], '<U32')
+            array_em = array_em[1:]
+
             # now send it
-            outlet.push_sample(mysample)
+            outlet_EEG.push_sample(sample_eeg)
+            outlet_EM.push_sample(sample_em)
         sent_samples += required_samples
         # now send it and wait for a bit before trying again.
         time.sleep(0.005)

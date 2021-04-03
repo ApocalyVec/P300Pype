@@ -1,18 +1,19 @@
 <?xml version='1.0' encoding='utf-8'?>
 <scheme description="" title="EEBME6099FinalProject" version="2.0">
 	<nodes>
-		<node id="0" name="LSL Input" position="(109.0, 334.0)" project_name="NeuroPype" qualified_name="widgets.network.owlslinput.OWLSLInput" title="LSL Input" uuid="e0603adb-31e3-49eb-b76b-76519acb690f" version="1.0.0" />
-		<node id="1" name="Inspect Data" position="(282.0, 376.0)" project_name="NeuroPype" qualified_name="widgets.visualization.owinspectdata.OWInspectData" title="Inspect Data" uuid="276ee9ab-d4d3-44bf-9ea6-7900360268bc" version="2.1.1" />
-		<node id="2" name="Time Series Plot" position="(301.0, 293.0)" project_name="NeuroPype" qualified_name="widgets.visualization.owtimeseriesplot.OWTimeSeriesPlot" title="Time Series Plot" uuid="22f4ef39-fe71-463a-ab5c-13a4f5dcbdeb" version="1.0.1" />
-		<node id="3" name="Spectrum Plot" position="(428.0, 280.0)" project_name="NeuroPype" qualified_name="widgets.visualization.owspectrumplot.OWSpectrumPlot" title="Spectrum Plot" uuid="1502e025-b2a6-413e-bbe3-bcc3eee6dd18" version="1.0.0" />
-		<node id="4" name="Power Spectrum (Welch)" position="(346.0, 184.0)" project_name="NeuroPype" qualified_name="widgets.spectral.owwelchspectrum.OWWelchSpectrum" title="Power Spectrum (Welch)" uuid="308ad864-3c4a-49d5-b8ac-b3c9826f11d2" version="1.0.0" />
-		<node id="5" name="Inspect Data" position="(499.0, 141.0)" project_name="NeuroPype" qualified_name="widgets.visualization.owinspectdata.OWInspectData" title="Inspect Data (1)" uuid="a2142528-98b2-44ab-b398-8db8d3808199" version="2.1.1" />
+		<node id="0" name="LSL Input" position="(110.0, 334.0)" project_name="NeuroPype" qualified_name="widgets.network.owlslinput.OWLSLInput" title="LSL Input" uuid="b4a39a21-7167-43de-b28a-b5536eff2921" version="1.0.0" />
+		<node id="1" name="Inspect Data" position="(282.0, 376.0)" project_name="NeuroPype" qualified_name="widgets.visualization.owinspectdata.OWInspectData" title="Inspect Data" uuid="02d3dea5-e7e7-4fa4-ab28-ef26d359c963" version="2.1.1" />
+		<node id="2" name="Time Series Plot" position="(301.0, 293.0)" project_name="NeuroPype" qualified_name="widgets.visualization.owtimeseriesplot.OWTimeSeriesPlot" title="Time Series Plot" uuid="6ac90857-57ae-4396-a802-adc38d52b4c5" version="1.0.1" />
+		<node id="3" name="Spectrum Plot" position="(578.0, 339.0)" project_name="NeuroPype" qualified_name="widgets.visualization.owspectrumplot.OWSpectrumPlot" title="Spectrum Plot" uuid="70f08c73-d856-4509-bf43-43eefea60e76" version="1.0.0" />
+		<node id="4" name="Power Spectrum (Welch)" position="(346.0, 184.0)" project_name="NeuroPype" qualified_name="widgets.spectral.owwelchspectrum.OWWelchSpectrum" title="Power Spectrum (Welch)" uuid="bb3e3bcd-0cae-4995-b003-e1158fa5d411" version="1.0.0" />
+		<node id="5" name="Inspect Data" position="(499.0, 141.0)" project_name="NeuroPype" qualified_name="widgets.visualization.owinspectdata.OWInspectData" title="Inspect Data (1)" uuid="d397b1b0-a7f8-4156-a68a-d2ba13cff940" version="2.1.1" />
 	</nodes>
 	<links>
 		<link enabled="true" id="0" sink_channel="Data" sink_node_id="1" source_channel="Data" source_node_id="0" />
 		<link enabled="true" id="1" sink_channel="Data" sink_node_id="2" source_channel="Data" source_node_id="0" />
 		<link enabled="true" id="2" sink_channel="Data" sink_node_id="4" source_channel="Data" source_node_id="0" />
 		<link enabled="true" id="3" sink_channel="Data" sink_node_id="5" source_channel="Data" source_node_id="4" />
+		<link enabled="true" id="4" sink_channel="Data" sink_node_id="3" source_channel="Data" source_node_id="4" />
 	</links>
 	<annotations />
 	<thumbnail />
@@ -27,14 +28,14 @@ WAMAAABUUDdxJFgDAAAAQ1A1cSVYAwAAAENQM3EmWAMAAABDUDFxJ1gDAAAAQ1B6cShYAwAAAENQ
 MnEpWAMAAABDUDRxKlgDAAAAQ1A2cStYAwAAAFRQOHEsWAIAAABQN3EtWAIAAABQNXEuWAIAAABQ
 M3EvWAIAAABQMXEwWAIAAABQenExWAIAAABQMnEyWAIAAABQNHEzWAIAAABQNnE0WAIAAABQOHE1
 WAMAAABQTzdxNlgDAAAAUE96cTdYAwAAAFAwOHE4WAIAAABPMXE5WAIAAABPMnE6ZVgLAAAAZGlh
-Z25vc3RpY3NxO4lYDAAAAG1hcmtlcl9xdWVyeXE8WAAAAABxPVgMAAAAbWF4X2Jsb2NrbGVucT5N
-AARYCgAAAG1heF9idWZsZW5xP0seWAwAAABtYXhfY2h1bmtsZW5xQEsAWAwAAABub21pbmFsX3Jh
-dGVxQVgNAAAAKHVzZSBkZWZhdWx0KXFCWAUAAABxdWVyeXFDWB0AAABuYW1lPSdORVJfMjAxNV9C
-Q0lfQ2hhbGxlbmdlJ3FEWAcAAAByZWNvdmVycUWIWBQAAAByZXNvbHZlX21pbmltdW1fdGltZXFG
-Rz/gAAAAAAAAWBMAAABzYXZlZFdpZGdldEdlb21ldHJ5cUdjc2lwCl91bnBpY2tsZV90eXBlCnFI
-WAwAAABQeVF0NC5RdENvcmVxSVgKAAAAUUJ5dGVBcnJheXFKQy4B2dDLAAEAAAAAAlQAAAONAAAD
-ywAABHMAAAJcAAADrAAAA8MAAARrAAAAAAAAcUuFcUyHcU1ScU5YDgAAAHNldF9icmVha3BvaW50
-cU+JdS4=
+Z25vc3RpY3NxO4lYDAAAAG1hcmtlcl9xdWVyeXE8WCAAAABuYW1lPSdORVJfMjAxNV9CQ0lfQ2hh
+bGxlbmdlX0VNJ3E9WAwAAABtYXhfYmxvY2tsZW5xPk0ABFgKAAAAbWF4X2J1ZmxlbnE/Sx5YDAAA
+AG1heF9jaHVua2xlbnFASwBYDAAAAG5vbWluYWxfcmF0ZXFBWA0AAAAodXNlIGRlZmF1bHQpcUJY
+BQAAAHF1ZXJ5cUNYIQAAAG5hbWU9J05FUl8yMDE1X0JDSV9DaGFsbGVuZ2VfRUVHJ3FEWAcAAABy
+ZWNvdmVycUWIWBQAAAByZXNvbHZlX21pbmltdW1fdGltZXFGRz/gAAAAAAAAWBMAAABzYXZlZFdp
+ZGdldEdlb21ldHJ5cUdjc2lwCl91bnBpY2tsZV90eXBlCnFIWAwAAABQeVF0NC5RdENvcmVxSVgK
+AAAAUUJ5dGVBcnJheXFKQy4B2dDLAAEAAAAAAlQAAAONAAADywAABHMAAAJcAAADrAAAA8MAAARr
+AAAAAAAAcUuFcUyHcU1ScU5YDgAAAHNldF9icmVha3BvaW50cU+JdS4=
 </properties>
 		<properties format="pickle" node_id="1">gAN9cQAoWA0AAABhbHdheXNfb25fdG9wcQGIWAoAAABhdXRvX2Nsb3NlcQKJWAgAAABjb2xfYXhp
 c3EDWAQAAAB0aW1lcQRYCAAAAGRlY2ltYWxzcQVLBlgNAAAAZXZlcnlfbl90aWNrc3EGSwFYDQAA
@@ -68,8 +69,8 @@ cm9fY29sb3JxJ1gHAAAAIzdGN0Y3RnEoWAgAAAB6ZXJvbWVhbnEpiHUu
 ZXEDWAcAAABkZXRyZW5kcQRYCAAAAGNvbnN0YW50cQVYCAAAAGZmdF9zaXplcQZYDQAAACh1c2Ug
 ZGVmYXVsdClxB1gIAAAAb25lc2lkZWRxCIhYDwAAAG92ZXJsYXBfc2FtcGxlc3EJaAdYEwAAAHNh
 dmVkV2lkZ2V0R2VvbWV0cnlxCmNzaXAKX3VucGlja2xlX3R5cGUKcQtYDAAAAFB5UXQ0LlF0Q29y
-ZXEMWAoAAABRQnl0ZUFycmF5cQ1DLgHZ0MsAAQAAAAAEcgAAAmsAAAXpAAADHgAABHoAAAKKAAAF
-4QAAAxYAAAAAAABxDoVxD4dxEFJxEVgHAAAAc2NhbGluZ3ESWAcAAABkZW5zaXR5cRNYDwAAAHNl
+ZXEMWAoAAABRQnl0ZUFycmF5cQ1DLgHZ0MsAAQAAAAAFLgAAAtAAAAalAAADgwAABTYAAALvAAAG
+nQAAA3sAAAAAAABxDoVxD4dxEFJxEVgHAAAAc2NhbGluZ3ESWAcAAABkZW5zaXR5cRNYDwAAAHNl
 Z21lbnRfc2FtcGxlc3EUaAdYDgAAAHNldF9icmVha3BvaW50cRWJWAQAAAB1bml0cRZYBwAAAHNh
 bXBsZXNxF1gGAAAAd2luZG93cRhYBAAAAGhhbm5xGXUu
 </properties>
@@ -107,6 +108,12 @@ bXBsZXNxF1gGAAAAd2luZG93cRhYBAAAAGhhbm5xGXUu
             "node5",
             "data",
             "node6",
+            "data"
+        ],
+        [
+            "node5",
+            "data",
+            "node4",
             "data"
         ]
     ],
@@ -183,9 +190,9 @@ bXBsZXNxF1gGAAAAd2luZG93cRhYBAAAAGhhbm5xGXUu
                     "value": false
                 },
                 "marker_query": {
-                    "customized": false,
+                    "customized": true,
                     "type": "StringPort",
-                    "value": ""
+                    "value": "name='NER_2015_BCI_Challenge_EM'"
                 },
                 "max_blocklen": {
                     "customized": false,
@@ -210,7 +217,7 @@ bXBsZXNxF1gGAAAAd2luZG93cRhYBAAAAGhhbm5xGXUu
                 "query": {
                     "customized": true,
                     "type": "StringPort",
-                    "value": "name='NER_2015_BCI_Challenge'"
+                    "value": "name='NER_2015_BCI_Challenge_EEG'"
                 },
                 "recover": {
                     "customized": false,
@@ -228,7 +235,7 @@ bXBsZXNxF1gGAAAAd2luZG93cRhYBAAAAGhhbm5xGXUu
                     "value": false
                 }
             },
-            "uuid": "e0603adb-31e3-49eb-b76b-76519acb690f"
+            "uuid": "b4a39a21-7167-43de-b28a-b5536eff2921"
         },
         "node2": {
             "class": "InspectData",
@@ -330,7 +337,7 @@ bXBsZXNxF1gGAAAAd2luZG93cRhYBAAAAGhhbm5xGXUu
                     "value": "Inspect Data Packet"
                 }
             },
-            "uuid": "276ee9ab-d4d3-44bf-9ea6-7900360268bc"
+            "uuid": "02d3dea5-e7e7-4fa4-ab28-ef26d359c963"
         },
         "node3": {
             "class": "TimeSeriesPlot",
@@ -467,7 +474,7 @@ bXBsZXNxF1gGAAAAd2luZG93cRhYBAAAAGhhbm5xGXUu
                     "value": true
                 }
             },
-            "uuid": "22f4ef39-fe71-463a-ab5c-13a4f5dcbdeb"
+            "uuid": "6ac90857-57ae-4396-a802-adc38d52b4c5"
         },
         "node4": {
             "class": "SpectrumPlot",
@@ -559,7 +566,7 @@ bXBsZXNxF1gGAAAAd2luZG93cRhYBAAAAGhhbm5xGXUu
                     "value": "#7F7F7F7F"
                 }
             },
-            "uuid": "1502e025-b2a6-413e-bbe3-bcc3eee6dd18"
+            "uuid": "70f08c73-d856-4509-bf43-43eefea60e76"
         },
         "node5": {
             "class": "WelchSpectrum",
@@ -621,7 +628,7 @@ bXBsZXNxF1gGAAAAd2luZG93cRhYBAAAAGhhbm5xGXUu
                     "value": "hann"
                 }
             },
-            "uuid": "308ad864-3c4a-49d5-b8ac-b3c9826f11d2"
+            "uuid": "bb3e3bcd-0cae-4995-b003-e1158fa5d411"
         },
         "node6": {
             "class": "InspectData",
@@ -723,7 +730,7 @@ bXBsZXNxF1gGAAAAd2luZG93cRhYBAAAAGhhbm5xGXUu
                     "value": "Inspect Data Packet"
                 }
             },
-            "uuid": "a2142528-98b2-44ab-b398-8db8d3808199"
+            "uuid": "d397b1b0-a7f8-4156-a68a-d2ba13cff940"
         }
     },
     "version": 1.1
