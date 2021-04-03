@@ -8,7 +8,7 @@ import time
 from random import random as rand
 
 from pylsl import StreamInfo, StreamOutlet, local_clock
-
+import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 
