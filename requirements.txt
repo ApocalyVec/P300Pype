@@ -4,3 +4,4 @@ pandas
 sklearn
 mne
 matplotlib
+tensorflow
