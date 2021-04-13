@@ -17,7 +17,7 @@ def main():
     root = 'E:/inria-bci-challenge/train/'
     train_label_location = 'E:/inria-bci-challenge/TrainLabels.csv'
     files = [os.path.join(root, fn) for fn in os.listdir(root)]
-    srate = 800
+    srate = 200
 
     n_channels = 56
 
