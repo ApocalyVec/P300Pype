@@ -1,21 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?>
 <scheme description="" title="EEBME6099FinalProject" version="2.0">
 	<nodes>
-		<node id="0" name="LSL Input" position="(44.0, 467.0)" project_name="NeuroPype" qualified_name="widgets.network.owlslinput.OWLSLInput" title="LSL Input" uuid="67fc899b-315d-480c-aa62-c61bf45bdfb9" version="1.0.0" />
-		<node id="1" name="Spectrum Plot" position="(439.0, 325.0)" project_name="NeuroPype" qualified_name="widgets.visualization.owspectrumplot.OWSpectrumPlot" title="Spectrum Plot" uuid="6a8de5a7-368f-4457-9cca-96e942412c63" version="1.0.0" />
-		<node id="2" name="Power Spectrum (Welch)" position="(278.0, 261.0)" project_name="NeuroPype" qualified_name="widgets.spectral.owwelchspectrum.OWWelchSpectrum" title="Power Spectrum (Welch)" uuid="e9e2e609-9f39-47e6-ae80-dddac9353d15" version="1.0.0" />
-		<node id="3" name="Inspect Data" position="(431.0, 218.0)" project_name="NeuroPype" qualified_name="widgets.visualization.owinspectdata.OWInspectData" title="Inspect Data (1)" uuid="3ff6f4f1-d29a-4ebd-8244-16b098750dac" version="2.1.1" />
-		<node id="4" name="Dejitter Timestamps" position="(166.0, 485.0)" project_name="NeuroPype" qualified_name="widgets.utilities.owdejittertimestamps.OWDejitterTimestamps" title="Dejitter Timestamps" uuid="e4fea98d-4337-45c2-a285-51ee4ce304e6" version="1.0.0" />
-		<node id="5" name="Assign Target Values" position="(277.0, 459.0)" project_name="NeuroPype" qualified_name="widgets.machine_learning.owassigntargets.OWAssignTargets" title="Assign Target Values" uuid="e0e25250-55b5-43f5-b5f3-59f3298028ed" version="1.0.0" />
-		<node id="6" name="Segmentation" position="(394.0, 469.0)" project_name="NeuroPype" qualified_name="widgets.formatting.owsegmentation.OWSegmentation" title="Segmentation" uuid="f99a6fc2-6ed2-4041-add1-b20d4a7d00f6" version="1.0.1" />
-		<node id="7" name="Hierarchical Discriminant Component Analysis" position="(643.0, 457.0)" project_name="NeuroPype" qualified_name="widgets.machine_learning.owhierarchicaldiscriminantcomponentanalysis.OWHierarchicalDiscriminantComponentAnalysis" title="Hierarchical Discriminant Component Analysis" uuid="2c466609-06e9-4cfc-9958-c693534c4d13" version="1.0.0" />
-		<node id="8" name="Select Range" position="(742.0, 514.0)" project_name="NeuroPype" qualified_name="widgets.tensor_math.owselectrange.OWSelectRange" title="Select Range" uuid="70a48cf5-2e7c-486a-892f-0440fe850704" version="1.0.0" />
-		<node id="9" name="Override Axis" position="(771.0, 402.0)" project_name="NeuroPype" qualified_name="widgets.tensor_math.owoverrideaxis.OWOverrideAxis" title="Override Axis" uuid="667598f1-9579-431f-9335-250556fda846" version="1.0.2" />
-		<node id="10" name="Time Series Plot" position="(862.0, 566.0)" project_name="NeuroPype" qualified_name="widgets.visualization.owtimeseriesplot.OWTimeSeriesPlot" title="Time Series Plot (1)" uuid="a2a336a4-a9a7-4d52-bd1b-4a15f9e2bf2f" version="1.0.1" />
-		<node id="11" name="Streaming Bar Plot" position="(910.0, 372.0)" project_name="NeuroPype" qualified_name="widgets.visualization.owbarplot.OWBarPlot" title="Streaming Bar Plot" uuid="650b32af-ce02-4ad5-a4c0-530359b78684" version="1.0.2" />
-		<node id="12" name="Inspect Data" position="(492.0, 597.0)" project_name="NeuroPype" qualified_name="widgets.visualization.owinspectdata.OWInspectData" title="Inspect Data (2)" uuid="e6a34b13-0db4-40b2-a992-8bebcc2ef37e" version="2.1.1" />
-		<node id="13" name="LSL Output" position="(537.0, 397.0)" project_name="NeuroPype" qualified_name="widgets.network.owlsloutput.OWLSLOutput" title="LSL Output" uuid="df4025cf-911a-4894-867b-bdb04830003e" version="1.0.0" />
-		<node id="14" name="LSL Output" position="(210.0, 649.0)" project_name="NeuroPype" qualified_name="widgets.network.owlsloutput.OWLSLOutput" title="LSL Output (1)" uuid="3d0b8ecd-0ca0-464a-8dd9-cff063224151" version="1.0.0" />
+		<node id="0" name="LSL Input" position="(44.0, 467.0)" project_name="NeuroPype" qualified_name="widgets.network.owlslinput.OWLSLInput" title="LSL Input" uuid="511e0b60-e931-4239-915f-6aaa3439e857" version="1.0.0" />
+		<node id="1" name="Spectrum Plot" position="(439.0, 325.0)" project_name="NeuroPype" qualified_name="widgets.visualization.owspectrumplot.OWSpectrumPlot" title="Spectrum Plot" uuid="0e463b37-93a2-4596-b4ba-3457ee9cb8c7" version="1.0.0" />
+		<node id="2" name="Power Spectrum (Welch)" position="(278.0, 261.0)" project_name="NeuroPype" qualified_name="widgets.spectral.owwelchspectrum.OWWelchSpectrum" title="Power Spectrum (Welch)" uuid="8ea141f4-7a6a-4564-8b2f-6164dfa4a320" version="1.0.0" />
+		<node id="3" name="Inspect Data" position="(431.0, 218.0)" project_name="NeuroPype" qualified_name="widgets.visualization.owinspectdata.OWInspectData" title="Inspect Data (1)" uuid="84780a12-f35a-48cf-8d80-326a7ac30701" version="2.1.1" />
+		<node id="4" name="Dejitter Timestamps" position="(143.0, 402.0)" project_name="NeuroPype" qualified_name="widgets.utilities.owdejittertimestamps.OWDejitterTimestamps" title="Dejitter Timestamps" uuid="9c468a1d-926f-4fb6-a986-faeddf22d8e2" version="1.0.0" />
+		<node id="5" name="Assign Target Values" position="(285.0, 538.0)" project_name="NeuroPype" qualified_name="widgets.machine_learning.owassigntargets.OWAssignTargets" title="Assign Target Values" uuid="62a00b69-f0d4-407f-98f6-a1af6163b4af" version="1.0.0" />
+		<node id="6" name="Segmentation" position="(394.0, 469.0)" project_name="NeuroPype" qualified_name="widgets.formatting.owsegmentation.OWSegmentation" title="Segmentation" uuid="e7fb1a6c-61a8-4dcb-9cbc-401f724bdd67" version="1.0.1" />
+		<node id="7" name="Hierarchical Discriminant Component Analysis" position="(643.0, 457.0)" project_name="NeuroPype" qualified_name="widgets.machine_learning.owhierarchicaldiscriminantcomponentanalysis.OWHierarchicalDiscriminantComponentAnalysis" title="Hierarchical Discriminant Component Analysis" uuid="cc7d4933-367c-4a78-a7b9-c86c851968d8" version="1.0.0" />
+		<node id="8" name="Select Range" position="(769.0, 530.0)" project_name="NeuroPype" qualified_name="widgets.tensor_math.owselectrange.OWSelectRange" title="Select Range" uuid="565078ea-99ce-40c1-ae49-f3d4d02decf3" version="1.0.0" />
+		<node id="9" name="Override Axis" position="(771.0, 402.0)" project_name="NeuroPype" qualified_name="widgets.tensor_math.owoverrideaxis.OWOverrideAxis" title="Override Axis" uuid="5c87e0a9-b170-46ca-9d0e-4dee06f3e2ec" version="1.0.2" />
+		<node id="10" name="Time Series Plot" position="(493.0, 701.0)" project_name="NeuroPype" qualified_name="widgets.visualization.owtimeseriesplot.OWTimeSeriesPlot" title="Time Series Plot (1)" uuid="a14d18a7-9e98-48fa-b33f-c91848565644" version="1.0.1" />
+		<node id="11" name="Streaming Bar Plot" position="(930.0, 334.0)" project_name="NeuroPype" qualified_name="widgets.visualization.owbarplot.OWBarPlot" title="Streaming Bar Plot" uuid="569cd816-f8f2-4b58-b665-5da3f89ed085" version="1.0.2" />
+		<node id="12" name="Inspect Data" position="(534.0, 427.0)" project_name="NeuroPype" qualified_name="widgets.visualization.owinspectdata.OWInspectData" title="Inspect Data (2)" uuid="f672ad7a-069c-423c-afbd-6a3fd3bb5e29" version="2.1.1" />
+		<node id="13" name="LSL Output" position="(612.0, 612.0)" project_name="NeuroPype" qualified_name="widgets.network.owlsloutput.OWLSLOutput" title="LSL Output" uuid="eed46f9d-e0d9-465b-baa2-b96d5010f4ab" version="1.0.0" />
 	</nodes>
 	<links>
 		<link enabled="true" id="0" sink_channel="Data" sink_node_id="3" source_channel="Data" source_node_id="2" />
@@ -23,14 +22,12 @@
 		<link enabled="true" id="2" sink_channel="Data" sink_node_id="4" source_channel="Data" source_node_id="0" />
 		<link enabled="true" id="3" sink_channel="Data" sink_node_id="5" source_channel="Data" source_node_id="4" />
 		<link enabled="true" id="4" sink_channel="Data" sink_node_id="6" source_channel="Data" source_node_id="5" />
-		<link enabled="true" id="5" sink_channel="Data" sink_node_id="10" source_channel="Data" source_node_id="8" />
-		<link enabled="true" id="6" sink_channel="Data" sink_node_id="11" source_channel="Data" source_node_id="9" />
-		<link enabled="true" id="7" sink_channel="Data" sink_node_id="13" source_channel="Data" source_node_id="6" />
-		<link enabled="true" id="8" sink_channel="Data" sink_node_id="12" source_channel="Data" source_node_id="6" />
-		<link enabled="true" id="9" sink_channel="Data" sink_node_id="7" source_channel="Data" source_node_id="6" />
-		<link enabled="true" id="10" sink_channel="Data" sink_node_id="9" source_channel="Data" source_node_id="7" />
-		<link enabled="true" id="11" sink_channel="Data" sink_node_id="8" source_channel="Data" source_node_id="7" />
-		<link enabled="true" id="12" sink_channel="Data" sink_node_id="14" source_channel="Data" source_node_id="0" />
+		<link enabled="true" id="5" sink_channel="Data" sink_node_id="11" source_channel="Data" source_node_id="9" />
+		<link enabled="true" id="6" sink_channel="Data" sink_node_id="12" source_channel="Data" source_node_id="6" />
+		<link enabled="true" id="7" sink_channel="Data" sink_node_id="9" source_channel="Data" source_node_id="7" />
+		<link enabled="true" id="8" sink_channel="Data" sink_node_id="8" source_channel="Data" source_node_id="7" />
+		<link enabled="true" id="9" sink_channel="Data" sink_node_id="10" source_channel="Data" source_node_id="6" />
+		<link enabled="true" id="10" sink_channel="Data" sink_node_id="13" source_channel="Data" source_node_id="6" />
 	</links>
 	<annotations />
 	<thumbnail />
@@ -136,28 +133,28 @@ c2V0X2JyZWFrcG9pbnRxF4lYDAAAAHNob3dfdG9vbGJhcnEYiVgLAAAAc3RyZWFtX25hbWVxGWgM
 WAUAAAB0aXRsZXEaWBUAAABDbGFzc2lmaWNhdGlvbiBPdXRwdXRxG1gRAAAAdXNlX2xhc3RfaW5z
 dGFuY2VxHIhYBwAAAHZlcmJvc2VxHYlYCAAAAHlfbGltaXRzcR5dcR8oSwBLAWV1Lg==
 </properties>
-		<properties format="literal" node_id="12">{'always_on_top': True, 'auto_close': False, 'col_axis': 'time', 'decimals': 6, 'every_n_ticks': 1, 'fewer_buttons': True, 'font_size': 10, 'initial_position': [20, 50, 500, 400], 'row_axis': 'space', 'savedWidgetGeometry': None, 'set_breakpoint': False, 'show_axes_table': True, 'show_data_table': True, 'show_markers_table': True, 'show_max_columns': 20, 'show_max_values': 50, 'show_streams_table': True, 'stream_name': '(use default)', 'window_title': 'Inspect Data Packet'}</properties>
-		<properties format="pickle" node_id="13">gAN9cQAoWAkAAABjaHVua19sZW5xAUsAWBUAAABpZ25vcmVfc2lnbmFsX2NoYW5nZWRxAolYCwAA
-AG1hcmtlcl9uYW1lcQNYEQAAAE91dFN0cmVhbS1tYXJrZXJzcQRYEAAAAG1hcmtlcl9zb3VyY2Vf
-aWRxBVgAAAAAcQZYDAAAAG1heF9idWZmZXJlZHEHSzxYFwAAAHJlc2V0X2lmX2xhYmVsc19jaGFu
-Z2VkcQiJWBMAAABzYXZlZFdpZGdldEdlb21ldHJ5cQljc2lwCl91bnBpY2tsZV90eXBlCnEKWAwA
-AABQeVF0NC5RdENvcmVxC1gKAAAAUUJ5dGVBcnJheXEMQy4B2dDLAAEAAAAABS4AAALQAAAGpQAA
-BE8AAAU2AAAC7wAABp0AAARHAAAAAAAAcQ2FcQ6HcQ9ScRBYDAAAAHNlbmRfbWFya2Vyc3ERiVgO
-AAAAc2V0X2JyZWFrcG9pbnRxEolYCQAAAHNvdXJjZV9pZHETaAZYBQAAAHNyYXRlcRRYDQAAACh1
-c2UgZGVmYXVsdClxFVgLAAAAc3RyZWFtX25hbWVxFlgeAAAATkVSXzIwMTVfQkNJX0NoYWxsZW5n
-ZV9TYW1wbGVzcRdYCwAAAHN0cmVhbV90eXBlcRhYBwAAAENvbnRyb2xxGVgTAAAAdXNlX2RhdGFf
-dGltZXN0YW1wc3EaiFgWAAAAdXNlX251bXB5X29wdGltaXphdGlvbnEbiXUu
+		<properties format="pickle" node_id="12">gAN9cQAoWA0AAABhbHdheXNfb25fdG9wcQGIWAoAAABhdXRvX2Nsb3NlcQKJWAgAAABjb2xfYXhp
+c3EDWAQAAAB0aW1lcQRYCAAAAGRlY2ltYWxzcQVLBlgNAAAAZXZlcnlfbl90aWNrc3EGSwFYDQAA
+AGZld2VyX2J1dHRvbnNxB4hYCQAAAGZvbnRfc2l6ZXEISwpYEAAAAGluaXRpYWxfcG9zaXRpb25x
+CV1xCihLFEsyTfQBTZABZVgIAAAAcm93X2F4aXNxC1gFAAAAc3BhY2VxDFgTAAAAc2F2ZWRXaWRn
+ZXRHZW9tZXRyeXENY3NpcApfdW5waWNrbGVfdHlwZQpxDlgMAAAAUHlRdDQuUXRDb3JlcQ9YCgAA
+AFFCeXRlQXJyYXlxEEMuAdnQywABAAAAAARyAAACEQAABekAAAN4AAAEegAAAjAAAAXhAAADcAAA
+AAAAAHERhXESh3ETUnEUWA4AAABzZXRfYnJlYWtwb2ludHEViVgPAAAAc2hvd19heGVzX3RhYmxl
+cRaIWA8AAABzaG93X2RhdGFfdGFibGVxF4hYEgAAAHNob3dfbWFya2Vyc190YWJsZXEYiFgQAAAA
+c2hvd19tYXhfY29sdW1uc3EZSxRYDwAAAHNob3dfbWF4X3ZhbHVlc3EaSzJYEgAAAHNob3dfc3Ry
+ZWFtc190YWJsZXEbiFgLAAAAc3RyZWFtX25hbWVxHFgNAAAAKHVzZSBkZWZhdWx0KXEdWAwAAAB3
+aW5kb3dfdGl0bGVxHlgTAAAASW5zcGVjdCBEYXRhIFBhY2tldHEfdS4=
 </properties>
-		<properties format="pickle" node_id="14">gAN9cQAoWAkAAABjaHVua19sZW5xAUsAWBUAAABpZ25vcmVfc2lnbmFsX2NoYW5nZWRxAolYCwAA
+		<properties format="pickle" node_id="13">gAN9cQAoWAkAAABjaHVua19sZW5xAUsAWBUAAABpZ25vcmVfc2lnbmFsX2NoYW5nZWRxAolYCwAA
 AG1hcmtlcl9uYW1lcQNYEQAAAE91dFN0cmVhbS1tYXJrZXJzcQRYEAAAAG1hcmtlcl9zb3VyY2Vf
 aWRxBVgAAAAAcQZYDAAAAG1heF9idWZmZXJlZHEHSzxYFwAAAHJlc2V0X2lmX2xhYmVsc19jaGFu
 Z2VkcQiJWBMAAABzYXZlZFdpZGdldEdlb21ldHJ5cQljc2lwCl91bnBpY2tsZV90eXBlCnEKWAwA
 AABQeVF0NC5RdENvcmVxC1gKAAAAUUJ5dGVBcnJheXEMQy4B2dDLAAEAAAAABHIAAAIFAAAF6QAA
 A4QAAAR6AAACJAAABeEAAAN8AAAAAAAAcQ2FcQ6HcQ9ScRBYDAAAAHNlbmRfbWFya2Vyc3ERiVgO
 AAAAc2V0X2JyZWFrcG9pbnRxEolYCQAAAHNvdXJjZV9pZHETaAZYBQAAAHNyYXRlcRRYDQAAACh1
-c2UgZGVmYXVsdClxFVgLAAAAc3RyZWFtX25hbWVxFlgMAAAAUHlwZUluQW5kT3V0cRdYCwAAAHN0
-cmVhbV90eXBlcRhYBwAAAENvbnRyb2xxGVgTAAAAdXNlX2RhdGFfdGltZXN0YW1wc3EaiFgWAAAA
-dXNlX251bXB5X29wdGltaXphdGlvbnEbiXUu
+c2UgZGVmYXVsdClxFVgLAAAAc3RyZWFtX25hbWVxFlgeAAAATkVSXzIwMTVfQkNJX0NoYWxsZW5n
+ZV9TYW1wbGVzcRdYCwAAAHN0cmVhbV90eXBlcRhYBwAAAENvbnRyb2xxGVgTAAAAdXNlX2RhdGFf
+dGltZXN0YW1wc3EaiFgWAAAAdXNlX251bXB5X29wdGltaXphdGlvbnEbiXUu
 </properties>
 	</node_properties>
 	<patch>{
@@ -189,12 +186,6 @@ dXNlX251bXB5X29wdGltaXphdGlvbnEbiXUu
             "data"
         ],
         [
-            "node1",
-            "data",
-            "node15",
-            "data"
-        ],
-        [
             "node5",
             "data",
             "node6",
@@ -207,21 +198,9 @@ dXNlX251bXB5X29wdGltaXphdGlvbnEbiXUu
             "data"
         ],
         [
-            "node9",
-            "data",
-            "node11",
-            "data"
-        ],
-        [
             "node10",
             "data",
             "node12",
-            "data"
-        ],
-        [
-            "node7",
-            "data",
-            "node14",
             "data"
         ],
         [
@@ -233,7 +212,13 @@ dXNlX251bXB5X29wdGltaXphdGlvbnEbiXUu
         [
             "node7",
             "data",
-            "node8",
+            "node11",
+            "data"
+        ],
+        [
+            "node7",
+            "data",
+            "node14",
             "data"
         ],
         [
@@ -367,7 +352,7 @@ dXNlX251bXB5X29wdGltaXphdGlvbnEbiXUu
                     "value": false
                 }
             },
-            "uuid": "67fc899b-315d-480c-aa62-c61bf45bdfb9"
+            "uuid": "511e0b60-e931-4239-915f-6aaa3439e857"
         },
         "node10": {
             "class": "OverrideAxis",
@@ -422,7 +407,7 @@ dXNlX251bXB5X29wdGltaXphdGlvbnEbiXUu
                     "value": false
                 }
             },
-            "uuid": "667598f1-9579-431f-9335-250556fda846"
+            "uuid": "5c87e0a9-b170-46ca-9d0e-4dee06f3e2ec"
         },
         "node11": {
             "class": "TimeSeriesPlot",
@@ -559,7 +544,7 @@ dXNlX251bXB5X29wdGltaXphdGlvbnEbiXUu
                     "value": false
                 }
             },
-            "uuid": "a2a336a4-a9a7-4d52-bd1b-4a15f9e2bf2f"
+            "uuid": "a14d18a7-9e98-48fa-b33f-c91848565644"
         },
         "node12": {
             "class": "BarPlot",
@@ -649,7 +634,7 @@ dXNlX251bXB5X29wdGltaXphdGlvbnEbiXUu
                     ]
                 }
             },
-            "uuid": "650b32af-ce02-4ad5-a4c0-530359b78684"
+            "uuid": "569cd816-f8f2-4b58-b665-5da3f89ed085"
         },
         "node13": {
             "class": "InspectData",
@@ -751,7 +736,7 @@ dXNlX251bXB5X29wdGltaXphdGlvbnEbiXUu
                     "value": "Inspect Data Packet"
                 }
             },
-            "uuid": "e6a34b13-0db4-40b2-a992-8bebcc2ef37e"
+            "uuid": "f672ad7a-069c-423c-afbd-6a3fd3bb5e29"
         },
         "node14": {
             "class": "LSLOutput",
@@ -828,84 +813,7 @@ dXNlX251bXB5X29wdGltaXphdGlvbnEbiXUu
                     "value": false
                 }
             },
-            "uuid": "df4025cf-911a-4894-867b-bdb04830003e"
-        },
-        "node15": {
-            "class": "LSLOutput",
-            "module": "neuropype.nodes.network.LSLOutput",
-            "params": {
-                "chunk_len": {
-                    "customized": false,
-                    "type": "IntPort",
-                    "value": 0
-                },
-                "ignore_signal_changed": {
-                    "customized": false,
-                    "type": "BoolPort",
-                    "value": false
-                },
-                "marker_name": {
-                    "customized": false,
-                    "type": "StringPort",
-                    "value": "OutStream-markers"
-                },
-                "marker_source_id": {
-                    "customized": false,
-                    "type": "StringPort",
-                    "value": ""
-                },
-                "max_buffered": {
-                    "customized": false,
-                    "type": "IntPort",
-                    "value": 60
-                },
-                "reset_if_labels_changed": {
-                    "customized": false,
-                    "type": "BoolPort",
-                    "value": false
-                },
-                "send_markers": {
-                    "customized": false,
-                    "type": "BoolPort",
-                    "value": false
-                },
-                "set_breakpoint": {
-                    "customized": false,
-                    "type": "BoolPort",
-                    "value": false
-                },
-                "source_id": {
-                    "customized": false,
-                    "type": "StringPort",
-                    "value": ""
-                },
-                "srate": {
-                    "customized": false,
-                    "type": "FloatPort",
-                    "value": null
-                },
-                "stream_name": {
-                    "customized": true,
-                    "type": "StringPort",
-                    "value": "PypeInAndOut"
-                },
-                "stream_type": {
-                    "customized": false,
-                    "type": "StringPort",
-                    "value": "Control"
-                },
-                "use_data_timestamps": {
-                    "customized": false,
-                    "type": "BoolPort",
-                    "value": true
-                },
-                "use_numpy_optimization": {
-                    "customized": false,
-                    "type": "BoolPort",
-                    "value": false
-                }
-            },
-            "uuid": "3d0b8ecd-0ca0-464a-8dd9-cff063224151"
+            "uuid": "eed46f9d-e0d9-465b-baa2-b96d5010f4ab"
         },
         "node2": {
             "class": "SpectrumPlot",
@@ -997,7 +905,7 @@ dXNlX251bXB5X29wdGltaXphdGlvbnEbiXUu
                     "value": "#7F7F7F7F"
                 }
             },
-            "uuid": "6a8de5a7-368f-4457-9cca-96e942412c63"
+            "uuid": "0e463b37-93a2-4596-b4ba-3457ee9cb8c7"
         },
         "node3": {
             "class": "WelchSpectrum",
@@ -1059,7 +967,7 @@ dXNlX251bXB5X29wdGltaXphdGlvbnEbiXUu
                     "value": "hann"
                 }
             },
-            "uuid": "e9e2e609-9f39-47e6-ae80-dddac9353d15"
+            "uuid": "8ea141f4-7a6a-4564-8b2f-6164dfa4a320"
         },
         "node4": {
             "class": "InspectData",
@@ -1161,7 +1069,7 @@ dXNlX251bXB5X29wdGltaXphdGlvbnEbiXUu
                     "value": "Inspect Data Packet"
                 }
             },
-            "uuid": "3ff6f4f1-d29a-4ebd-8244-16b098750dac"
+            "uuid": "84780a12-f35a-48cf-8d80-326a7ac30701"
         },
         "node5": {
             "class": "DejitterTimestamps",
@@ -1193,7 +1101,7 @@ dXNlX251bXB5X29wdGltaXphdGlvbnEbiXUu
                     "value": -1
                 }
             },
-            "uuid": "e4fea98d-4337-45c2-a285-51ee4ce304e6"
+            "uuid": "9c468a1d-926f-4fb6-a986-faeddf22d8e2"
         },
         "node6": {
             "class": "AssignTargets",
@@ -1248,7 +1156,7 @@ dXNlX251bXB5X29wdGltaXphdGlvbnEbiXUu
                     "value": false
                 }
             },
-            "uuid": "e0e25250-55b5-43f5-b5f3-59f3298028ed"
+            "uuid": "62a00b69-f0d4-407f-98f6-a1af6163b4af"
         },
         "node7": {
             "class": "Segmentation",
@@ -1298,7 +1206,7 @@ dXNlX251bXB5X29wdGltaXphdGlvbnEbiXUu
                     "value": true
                 }
             },
-            "uuid": "f99a6fc2-6ed2-4041-add1-b20d4a7d00f6"
+            "uuid": "e7fb1a6c-61a8-4dcb-9cbc-401f724bdd67"
         },
         "node8": {
             "class": "HierarchicalDiscriminantComponentAnalysis",
@@ -1350,7 +1258,7 @@ dXNlX251bXB5X29wdGltaXphdGlvbnEbiXUu
                     "value": false
                 }
             },
-            "uuid": "2c466609-06e9-4cfc-9958-c693534c4d13"
+            "uuid": "cc7d4933-367c-4a78-a7b9-c86c851968d8"
         },
         "node9": {
             "class": "SelectRange",
@@ -1384,7 +1292,7 @@ dXNlX251bXB5X29wdGltaXphdGlvbnEbiXUu
                     "value": "indices"
                 }
             },
-            "uuid": "70a48cf5-2e7c-486a-892f-0440fe850704"
+            "uuid": "565078ea-99ce-40c1-ae49-f3d4d02decf3"
         }
     },
     "version": 1.1

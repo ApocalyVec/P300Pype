@@ -22,7 +22,7 @@ def main():
             if ts:
                 ts = timestamps + ts
                 sample = np.concatenate([sample, chunk], axis=0)
-        pred = model.predict(np.expand_dims(sample, axis=0))
+        pred = model.predict(np.expand_dims(sample[:2001], axis=0))
         if pred[0] <= 0.5:
             outlet_pred.push_sample(['PRED-Correct'])
         else:
