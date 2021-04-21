@@ -26,6 +26,8 @@ for i, fn in enumerate(files):
 
     # change this to your path
     array_eeg = np.concatenate([array_eeg, df.values], axis=0)
+    if i == 1:
+        break
 
 
 array_eeg_copy = np.copy(array_eeg)
