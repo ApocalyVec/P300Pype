@@ -5,7 +5,7 @@ import getopt
 import time
 from random import random as rand
 
-from pylsl import StreamInfo, StreamOutlet, local_clock, IRREGULAR_RATE
+from pylsl import StreamInfo, StreamOutlet, local_clock, IRREGULAR_RATE, resolve_stream, StreamInlet
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
@@ -13,11 +13,10 @@ import numpy as np
 def main():
 
     # read in the files
-
     root = 'E:/inria-bci-challenge/train/'
     train_label_location = 'E:/inria-bci-challenge/TrainLabels.csv'
     files = [os.path.join(root, fn) for fn in os.listdir(root)]
-    srate = 800
+    srate = 200
 
     n_channels = 56
 
@@ -29,11 +28,13 @@ def main():
         df = pd.read_csv(fn)  # change this to your path
         array_eeg = np.concatenate([array_eeg, df.iloc[:, 1:57].values], axis=0)
         array_em = np.concatenate([array_em, df.iloc[:, -1].values], axis=0)
+        if i > 2:
+            break
 
     array_prediction = np.expand_dims(pd.read_csv(train_label_location)['Prediction'].values, axis=-1)
     array_prediction[array_prediction == 1] = 2  # 2 is correct
     array_prediction[array_prediction == 0] = 1  # 1 is correct
-    array_em[np.argwhere(array_em)] = array_prediction
+    array_em[np.argwhere(array_em)] = array_prediction[:np.count_nonzero(np.argwhere(array_em))]
 
     # next make an outlet
     # EEG stream
@@ -79,6 +80,7 @@ def main():
             array_em = array_em[1:]
             array_eeg = array_eeg[1:, :]
 
+        # receive prediction results if there are any
 
         sent_samples += required_samples
         # now send it and wait for a bit before trying again.
