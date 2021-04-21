@@ -1,9 +1,9 @@
 import numpy as np
 from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense, LSTM, InputLayer, Dropout
+from tensorflow.keras.layers import Dense, LSTM, InputLayer
 from sklearn.model_selection import train_test_split
 
-data = np.load( 'data.npy')
+data = np.load('data.npy')
 data = data[:, 1:57, :]
 label = np.load('label.npy')
 

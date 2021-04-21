@@ -6,8 +6,8 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-root = 'E:/inria-bci-challenge/train/'
-train_label_location = 'E:/inria-bci-challenge/TrainLabels.csv'
+root = '/home/apocalyvec/Desktop/inria-bci-challenge/train'
+train_label_location = '/home/apocalyvec/Desktop/inria-bci-challenge/TrainLabels.csv'
 files = [os.path.join(root, fn) for fn in os.listdir(root)]
 
 n_channels = 59
@@ -53,7 +53,7 @@ array_incorrect = evoked_incorrect.get_data()
 array_all = np.concatenate([array_correct, array_incorrect], axis=0)
 label_all = np.concatenate([np.zeros(len(array_correct)), np.ones(len(array_incorrect))])
 
-np.save( 'data', array_all)
-np.save( 'label', label_all)
+np.save('data', array_all)
+np.save('label', label_all)
 
 
